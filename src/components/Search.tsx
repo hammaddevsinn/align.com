@@ -1,7 +1,12 @@
 "use client";
 
 import "./Search.css";
+
 export default function Search() {
+    const modalClose = () => {
+        // Close modal functionality - you can implement this based on your needs
+        console.log("Modal close clicked");
+    };
     return (
         <>
                 <div className="search-style-0" tabIndex={0}>
