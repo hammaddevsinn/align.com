@@ -58,7 +58,7 @@ export default function Contact() {
                                     <div className="contact-form-style-47">
                                         <div className="contact-form-style-48"><label className="contact-form-style-49" htmlFor="w_a-20b42b85-ddea-43d0-8e4f-27113f478926"><span className="contact-form-style-50">Service</span><span className="contact-form-style-51">*</span></label>
                                             <div className="contact-form-style-52"><select required className="contact-form-style-53" name="w_a">
-                                                <option disabled="" defaultValue="" className="contact-form-style-54">Please Select</option>
+                                                <option disabled defaultValue="" className="contact-form-style-54">Please Select</option>
                                                 <option value="Data Center" className="contact-form-style-55">Data Center Design, Procure, Build</option>
                                                 <option value="Migrations &amp; Cloud" className="contact-form-style-56">Data Center Assess &amp; Modernize</option>
                                                 <option value="Workplace Technology" className="contact-form-style-57">Workplace Technology</option>
