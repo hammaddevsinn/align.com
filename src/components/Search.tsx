@@ -16,7 +16,7 @@ export default function Search() {
                                     </label>
                                     <legend className="search-style-10">Search the website pages, blog, podcasts and resources.</legend>
                                     <div className="search-style-11">
-                                        <input className="search-style-12" type="text" name="term" required="" defaultValue="" placeholder="Search The Site" autoComplete="on" inputMode="search" />
+                                        <input className="search-style-12" type="text" name="term" required defaultValue="" placeholder="Search The Site" autoComplete="on" inputMode="search" />
                                     </div>
                                 </div>
                                 <div className="search-style-13">

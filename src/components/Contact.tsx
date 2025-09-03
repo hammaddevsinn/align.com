@@ -47,17 +47,17 @@ export default function Contact() {
                             <div className="contact-form-style-27" data-hs-forms-root="true">
                                 <form className="contact-form-style-28">
                                     <div className="contact-form-style-29"><label className="contact-form-style-30" htmlFor="firstname-20b42b85-ddea-43d0-8e4f-27113f478926"><span className="contact-form-style-31">First Name</span><span className="contact-form-style-32">*</span></label>
-                                        <div className="contact-form-style-33"><input name="firstname" required="" placeholder="" type="text" className="contact-form-style-34" inputMode="text" autoComplete="given-name" defaultValue="" /></div>
+                                        <div className="contact-form-style-33"><input name="firstname" required placeholder="" type="text" className="contact-form-style-34" inputMode="text" autoComplete="given-name" defaultValue="" /></div>
                                     </div>
                                     <div className="contact-form-style-35"><label className="contact-form-style-36" htmlFor="lastname-20b42b85-ddea-43d0-8e4f-27113f478926"><span className="contact-form-style-37">Last Name</span><span className="contact-form-style-38">*</span></label>
-                                        <div className="contact-form-style-39"><input name="lastname" required="" placeholder="" type="text" className="contact-form-style-40" inputMode="text" autoComplete="family-name" defaultValue="" /></div>
+                                        <div className="contact-form-style-39"><input name="lastname" required placeholder="" type="text" className="contact-form-style-40" inputMode="text" autoComplete="family-name" defaultValue="" /></div>
                                     </div>
                                     <div className="contact-form-style-41"><label className="contact-form-style-42" htmlFor="email-20b42b85-ddea-43d0-8e4f-27113f478926"><span className="contact-form-style-43">Email</span><span className="contact-form-style-44">*</span></label>
-                                        <div className="contact-form-style-45"><input name="email" required="" placeholder="" type="email" className="contact-form-style-46" inputMode="email" autoComplete="email" defaultValue="" /></div>
+                                        <div className="contact-form-style-45"><input name="email" required placeholder="" type="email" className="contact-form-style-46" inputMode="email" autoComplete="email" defaultValue="" /></div>
                                     </div>
                                     <div className="contact-form-style-47">
                                         <div className="contact-form-style-48"><label className="contact-form-style-49" htmlFor="w_a-20b42b85-ddea-43d0-8e4f-27113f478926"><span className="contact-form-style-50">Service</span><span className="contact-form-style-51">*</span></label>
-                                            <div className="contact-form-style-52"><select required="" className="contact-form-style-53" name="w_a">
+                                            <div className="contact-form-style-52"><select required className="contact-form-style-53" name="w_a">
                                                 <option disabled="" defaultValue="" className="contact-form-style-54">Please Select</option>
                                                 <option value="Data Center" className="contact-form-style-55">Data Center Design, Procure, Build</option>
                                                 <option value="Migrations &amp; Cloud" className="contact-form-style-56">Data Center Assess &amp; Modernize</option>
