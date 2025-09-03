@@ -45,7 +45,7 @@ export default function Contact() {
                                 </h2>
                             </div>
                             <div className="contact-form-style-27" data-hs-forms-root="true">
-                                <form method="POST" acceptCharset="UTF-8" encType="multipart/form-data" noValidate="" action="https://forms.hsforms.com/submissions/v3/public/submit/formsnext/multipart/3343341/20b42b85-ddea-43d0-8e4f-27113f478926" className="contact-form-style-28" target="target_iframe_20b42b85-ddea-43d0-8e4f-27113f478926" data-instance-id="853389ab-673a-430f-9acc-8cf84069384a" data-form-id="20b42b85-ddea-43d0-8e4f-27113f478926" data-portal-id="3343341" data-test-id="hsForm_20b42b85-ddea-43d0-8e4f-27113f478926">
+                                <form className="contact-form-style-28">
                                     <div className="contact-form-style-29"><label className="contact-form-style-30" htmlFor="firstname-20b42b85-ddea-43d0-8e4f-27113f478926"><span className="contact-form-style-31">First Name</span><span className="contact-form-style-32">*</span></label>
                                         <div className="contact-form-style-33"><input name="firstname" required="" placeholder="" type="text" className="contact-form-style-34" inputMode="text" autoComplete="given-name" defaultValue="" /></div>
                                     </div>
