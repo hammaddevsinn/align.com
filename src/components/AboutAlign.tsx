@@ -1,9 +1,14 @@
 "use client";
 
-import { Player } from "@lottiefiles/react-lottie-player";
+import dynamic from "next/dynamic";
 import { useEffect, useRef } from "react";
 
 import "./AboutAlign.css";
+
+const Player = dynamic(() => import("@lottiefiles/react-lottie-player").then(mod => ({ default: mod.Player })), {
+    ssr: false,
+    loading: () => <div style={{ width: '100%', height: '400px' }} />
+});
 
 export default function AboutAlign() {
     const textRef = useRef<HTMLDivElement>(null);

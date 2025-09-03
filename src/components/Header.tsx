@@ -213,9 +213,9 @@ export default function Header() {
                                 </div>
                             </div>
                             <ul className="style-38">
-                                <li className="style-39" aria-role="none" aria-haspopup="true">
+                                <li className="style-39" role="none" aria-haspopup="true">
                                     <a className="style-40" href="https://www.align.com/solutions/data-center-solutions?hsLang=en"
-                                        aria-role="menuitem">
+                                        role="menuitem">
                                         Data Center Infrastructure Solutions
 
                                         <svg width="12" height="11" viewBox="0 0 12 11" fill="none"
@@ -224,18 +224,18 @@ export default function Header() {
                                                 d="M6.70711 9.68899C6.31658 10.0795 5.68342 10.0795 5.29289 9.68899L0.7 5.09609C0.313401 4.70949 0.313401 4.08269 0.7 3.69609C1.0866 3.30949 1.7134 3.30949 2.1 3.69609L6 7.59609L9.9 3.69609C10.2866 3.30949 10.9134 3.30949 11.3 3.69609C11.6866 4.08269 11.6866 4.70949 11.3 5.09609L6.70711 9.68899Z"
                                                 fill="currentColor" className="style-42"></path>
                                         </svg> </a>
-                                    <div className="style-43" bis_skin_checked="1">
-                                        <div className="style-44" bis_skin_checked="1">
+                                    <div className="style-43">
+                                        <div className="style-44">
                                             <h2 className="style-45">Data Center Technology Infrastructure Solutions</h2>
                                         </div>
-                                        <div className="style-46" bis_skin_checked="1">
-                                            <div className="style-47" bis_skin_checked="1">
+                                        <div className="style-46">
+                                            <div className="style-47">
                                                 <h4 className="style-48"><a href="https://www.align.com/assess-modernize?hsLang=en"
                                                     rel="noopener" className="style-49">Assess &amp; Modernize</a></h4> <span
                                                         className="style-50" data-hs-cos-general-type="widget"
                                                         data-hs-cos-type="simple_menu">
                                                     <div className="style-51" role="navigation" data-sitemap-name="" data-menu-id=""
-                                                        aria-label="Navigation Menu" bis_skin_checked="1">
+                                                        aria-label="Navigation Menu">
                                                         <ul role="menu" className="style-52">
                                                             <li className="style-53" role="none"><a
                                                                 href="https://www.align.com/assess-modernize?tab=hs-tabs__tab-1--widget_1744037119268"
@@ -253,13 +253,13 @@ export default function Header() {
                                                     </div>
                                                 </span>
                                             </div>
-                                            <div className="style-59" bis_skin_checked="1">
+                                            <div className="style-59">
                                                 <h4 className="style-60"><a href="https://www.align.com/design-procure?hsLang=en"
                                                     rel="noopener" className="style-61">Design &amp; Plan</a></h4> <span
                                                         className="style-62" data-hs-cos-general-type="widget"
                                                         data-hs-cos-type="simple_menu">
                                                     <div className="style-63" role="navigation" data-sitemap-name="" data-menu-id=""
-                                                        aria-label="Navigation Menu" bis_skin_checked="1">
+                                                        aria-label="Navigation Menu">
                                                         <ul role="menu" className="style-64">
                                                             <li className="style-65" role="none"><a href="javascript:void(0);"
                                                                 role="menuitem" target="_self"
@@ -271,13 +271,13 @@ export default function Header() {
                                                     </div>
                                                 </span>
                                             </div>
-                                            <div className="style-69" bis_skin_checked="1">
+                                            <div className="style-69">
                                                 <h4 className="style-70"><a href="https://www.align.com/build-optimize?hsLang=en"
                                                     rel="noopener" className="style-71">Procure &amp; Build</a></h4> <span
                                                         className="style-72" data-hs-cos-general-type="widget"
                                                         data-hs-cos-type="simple_menu">
                                                     <div className="style-73" role="navigation" data-sitemap-name="" data-menu-id=""
-                                                        aria-label="Navigation Menu" bis_skin_checked="1">
+                                                        aria-label="Navigation Menu">
                                                         <ul role="menu" className="style-74">
                                                             <li className="style-75" role="none"><a href="javascript:void(0);"
                                                                 role="menuitem" target="_self"
@@ -298,13 +298,13 @@ export default function Header() {
                                                     </div>
                                                 </span>
                                             </div>
-                                            <div className="style-85" bis_skin_checked="1">
+                                            <div className="style-85">
                                                 <h4 className="style-86"><a href="https://www.align.com/en-us/asset-point?hsLang=en"
                                                     rel="noopener" className="style-87">Manage &amp; Optimize</a></h4> <span
                                                         className="style-88" data-hs-cos-general-type="widget"
                                                         data-hs-cos-type="simple_menu">
                                                     <div className="style-89" role="navigation" data-sitemap-name="" data-menu-id=""
-                                                        aria-label="Navigation Menu" bis_skin_checked="1">
+                                                        aria-label="Navigation Menu">
                                                         <ul role="menu" className="style-90">
                                                             <li className="style-91" role="none"><a
                                                                 href="https://www.align.com/en-us/asset-point"
@@ -317,10 +317,10 @@ export default function Header() {
                                         </div>
                                     </div>
                                 </li>
-                                <li className="style-93" aria-role="none" aria-haspopup="true">
+                                <li className="style-93" role="none" aria-haspopup="true">
                                     <a className="style-94"
                                         href="https://www.align.com/professional-services/workplace-technology?hsLang=en"
-                                        aria-role="menuitem">
+                                        role="menuitem">
                                         Workplace Technology
 
                                         <svg width="12" height="11" viewBox="0 0 12 11" fill="none"
@@ -329,19 +329,19 @@ export default function Header() {
                                                 d="M6.70711 9.68899C6.31658 10.0795 5.68342 10.0795 5.29289 9.68899L0.7 5.09609C0.313401 4.70949 0.313401 4.08269 0.7 3.69609C1.0866 3.30949 1.7134 3.30949 2.1 3.69609L6 7.59609L9.9 3.69609C10.2866 3.30949 10.9134 3.30949 11.3 3.69609C11.6866 4.08269 11.6866 4.70949 11.3 5.09609L6.70711 9.68899Z"
                                                 fill="currentColor" className="style-96"></path>
                                         </svg> </a>
-                                    <div className="style-97" bis_skin_checked="1">
-                                        <div className="style-98" bis_skin_checked="1">
+                                    <div className="style-97">
+                                        <div className="style-98">
                                             <h2 className="style-99">Workplace Technology&nbsp;</h2>
                                             <p className="style-100">No matter how the office evolves, Align works closely with
                                                 businesses to provide a connected IT enterprise for today's hybrid professional
                                                 that's built to be secure, flexible and reliable.</p>
                                         </div>
-                                        <div className="style-101" bis_skin_checked="1">
-                                            <div className="style-102" bis_skin_checked="1">
+                                        <div className="style-101">
+                                            <div className="style-102">
                                                 <h4 className="style-103">Solutions</h4> <span className="style-104"
                                                     data-hs-cos-general-type="widget" data-hs-cos-type="simple_menu">
                                                     <div className="style-105" role="navigation" data-sitemap-name=""
-                                                        data-menu-id="" aria-label="Navigation Menu" bis_skin_checked="1">
+                                                        data-menu-id="" aria-label="Navigation Menu">
                                                         <ul role="menu" className="style-106">
                                                             <li className="style-107" role="none"><a
                                                                 href="https://www.align.com/hq-branch-technology-design"
@@ -371,11 +371,11 @@ export default function Header() {
                                                     </div>
                                                 </span>
                                             </div>
-                                            <div className="style-119" bis_skin_checked="1">
+                                            <div className="style-119">
                                                 <h4 className="style-120">News &amp; Resources</h4> <span className="style-121"
                                                     data-hs-cos-general-type="widget" data-hs-cos-type="simple_menu">
                                                     <div className="style-122" role="navigation" data-sitemap-name=""
-                                                        data-menu-id="" aria-label="Navigation Menu" bis_skin_checked="1">
+                                                        data-menu-id="" aria-label="Navigation Menu">
                                                         <ul role="menu" className="style-123">
                                                             <li className="style-124" role="none"><a
                                                                 href="https://www.align.com/blog" role="menuitem"
@@ -402,9 +402,9 @@ export default function Header() {
                                         </div>
                                     </div>
                                 </li>
-                                <li className="style-134" aria-role="none" aria-haspopup="true">
+                                <li className="style-134" role="none" aria-haspopup="true">
                                     <a className="style-135" href="https://www.align.com/managed-services?hsLang=en"
-                                        aria-role="menuitem">
+                                        role="menuitem">
                                         Managed Services
 
                                         <svg width="12" height="11" viewBox="0 0 12 11" fill="none"
@@ -413,18 +413,18 @@ export default function Header() {
                                                 d="M6.70711 9.68899C6.31658 10.0795 5.68342 10.0795 5.29289 9.68899L0.7 5.09609C0.313401 4.70949 0.313401 4.08269 0.7 3.69609C1.0866 3.30949 1.7134 3.30949 2.1 3.69609L6 7.59609L9.9 3.69609C10.2866 3.30949 10.9134 3.30949 11.3 3.69609C11.6866 4.08269 11.6866 4.70949 11.3 5.09609L6.70711 9.68899Z"
                                                 fill="currentColor" className="style-137"></path>
                                         </svg> </a>
-                                    <div className="style-138" bis_skin_checked="1">
-                                        <div className="style-139" bis_skin_checked="1">
+                                    <div className="style-138">
+                                        <div className="style-139">
                                             <h2 className="style-140">Managed Services &amp; Cybersecurity</h2>
                                             <p className="style-141">Award-winning, scalable, and secure IT solutions from the
                                                 industry's premier Managed Services Provider.</p>
                                         </div>
-                                        <div className="style-142" bis_skin_checked="1">
-                                            <div className="style-143" bis_skin_checked="1">
+                                        <div className="style-142">
+                                            <div className="style-143">
                                                 <h4 className="style-144">Managed Services&nbsp;</h4> <span className="style-145"
                                                     data-hs-cos-general-type="widget" data-hs-cos-type="simple_menu">
                                                     <div className="style-146" role="navigation" data-sitemap-name=""
-                                                        data-menu-id="" aria-label="Navigation Menu" bis_skin_checked="1">
+                                                        data-menu-id="" aria-label="Navigation Menu">
                                                         <ul role="menu" className="style-147">
                                                             <li className="style-148" role="none"><a
                                                                 href="https://www.align.com/align-it-suite" role="menuitem"
@@ -461,11 +461,11 @@ export default function Header() {
                                                     </div>
                                                 </span>
                                             </div>
-                                            <div className="style-164" bis_skin_checked="1">
+                                            <div className="style-164">
                                                 <h4 className="style-165">Cybersecurity</h4> <span className="style-166"
                                                     data-hs-cos-general-type="widget" data-hs-cos-type="simple_menu">
                                                     <div className="style-167" role="navigation" data-sitemap-name=""
-                                                        data-menu-id="" aria-label="Navigation Menu" bis_skin_checked="1">
+                                                        data-menu-id="" aria-label="Navigation Menu">
                                                         <ul role="menu" className="style-168">
                                                             <li className="style-169" role="none"><a
                                                                 href="https://www.align.com/align-cybersecurity"
@@ -511,11 +511,11 @@ export default function Header() {
                                                     </div>
                                                 </span>
                                             </div>
-                                            <div className="style-186" bis_skin_checked="1">
+                                            <div className="style-186">
                                                 <h4 className="style-187">Resources &amp; Press</h4> <span className="style-188"
                                                     data-hs-cos-general-type="widget" data-hs-cos-type="simple_menu">
                                                     <div className="style-189" role="navigation" data-sitemap-name=""
-                                                        data-menu-id="" aria-label="Navigation Menu" bis_skin_checked="1">
+                                                        data-menu-id="" aria-label="Navigation Menu">
                                                         <ul role="menu" className="style-190">
                                                             <li className="style-191" role="none"><a
                                                                 href="https://www.align.com/blog" role="menuitem"
@@ -548,11 +548,11 @@ export default function Header() {
                                                     </div>
                                                 </span>
                                             </div>
-                                            <div className="style-207" bis_skin_checked="1">
+                                            <div className="style-207">
                                                 <h4 className="style-208">Why Align Managed Services</h4> <span className="style-209"
                                                     data-hs-cos-general-type="widget" data-hs-cos-type="simple_menu">
                                                     <div className="style-210" role="navigation" data-sitemap-name=""
-                                                        data-menu-id="" aria-label="Navigation Menu" bis_skin_checked="1">
+                                                        data-menu-id="" aria-label="Navigation Menu">
                                                         <ul role="menu" className="style-211">
                                                             <li className="style-212" role="none"><a
                                                                 href="https://www.align.com/managed-services-leadership"
@@ -583,8 +583,8 @@ export default function Header() {
                                         </div>
                                     </div>
                                 </li>
-                                <li className="style-224" aria-role="none" aria-haspopup="true">
-                                    <a className="style-225" href="https://www.align.com/about?hsLang=en" aria-role="menuitem">
+                                <li className="style-224" role="none" aria-haspopup="true">
+                                    <a className="style-225" href="https://www.align.com/about?hsLang=en" role="menuitem">
                                         About Align
 
                                         <svg width="12" height="11" viewBox="0 0 12 11" fill="none"
@@ -593,18 +593,18 @@ export default function Header() {
                                                 d="M6.70711 9.68899C6.31658 10.0795 5.68342 10.0795 5.29289 9.68899L0.7 5.09609C0.313401 4.70949 0.313401 4.08269 0.7 3.69609C1.0866 3.30949 1.7134 3.30949 2.1 3.69609L6 7.59609L9.9 3.69609C10.2866 3.30949 10.9134 3.30949 11.3 3.69609C11.6866 4.08269 11.6866 4.70949 11.3 5.09609L6.70711 9.68899Z"
                                                 fill="currentColor" className="style-227"></path>
                                         </svg> </a>
-                                    <div className="style-228" bis_skin_checked="1">
-                                        <div className="style-229" bis_skin_checked="1">
+                                    <div className="style-228">
+                                        <div className="style-229">
                                             <h2 className="style-230">About Align</h2>
                                             <p className="style-231">Over 35 Years' Experience, High-caliber IT Solutions,
                                                 Award-Winning Professionals and Managed IT Services, Subject Matter Experts</p>
                                         </div>
-                                        <div className="style-232" bis_skin_checked="1">
-                                            <div className="style-233" bis_skin_checked="1">
+                                        <div className="style-232">
+                                            <div className="style-233">
                                                 <h4 className="style-234">About Align</h4> <span className="style-235"
                                                     data-hs-cos-general-type="widget" data-hs-cos-type="simple_menu">
                                                     <div className="style-236" role="navigation" data-sitemap-name=""
-                                                        data-menu-id="" aria-label="Navigation Menu" bis_skin_checked="1">
+                                                        data-menu-id="" aria-label="Navigation Menu">
                                                         <ul role="menu" className="style-237">
                                                             <li className="style-238" role="none"><a
                                                                 href="https://www.align.com/about" role="menuitem"
@@ -1294,29 +1294,29 @@ export default function Header() {
             )}
 
             {/* Search Modal */}
-            <div className="search-style-0 hidden" bis_skin_checked="1" tabindex="0">
-                <div className="search-style-1" bis_skin_checked="1">
-                    <div className="search-style-2" bis_skin_checked="1">
+            <div className="search-style-0 hidden" tabIndex={0}>
+                <div className="search-style-1">
+                    <div className="search-style-2">
                         <button onClick={modalClose} className="search-style-3" title="Press Escape To Close As Well">× <span className="search-style-4">Close Search</span></button>
                         <form action="/hs-search-results" className="search-style-5">
                             <fieldset className="search-style-6">
-                                <div className="search-style-7" bis_skin_checked="1">
-                                    <label className="search-style-8" for="search-field">
+                                <div className="search-style-7">
+                                    <label className="search-style-8" htmlFor="search-field">
                                         <h3 className="search-style-9">Search The Site</h3>
                                     </label>
                                     <legend className="search-style-10">Search the website pages, blog, podcasts and resources.</legend>
-                                    <div className="search-style-11" bis_skin_checked="1">
-                                        <input className="search-style-12" type="text" name="term" required="" placeholder="Search The Site" autocomplete="on" inputmode="search" />
+                                    <div className="search-style-11">
+                                        <input className="search-style-12" type="text" name="term" required="" placeholder="Search The Site" autoComplete="on" inputMode="search" />
                                     </div>
                                 </div>
-                                <div className="search-style-13" bis_skin_checked="1">
-                                    <div className="search-style-14" bis_skin_checked="1">
+                                <div className="search-style-13">
+                                    <div className="search-style-14">
                                         <button className="search-style-15" type="submit">Search</button>
                                     </div>
                                 </div>
                             </fieldset>
                         </form>
-                        <div className="search-style-16" bis_skin_checked="1"></div>
+                        <div className="search-style-16"></div>
                     </div>
                 </div>
             </div>
@@ -1325,10 +1325,10 @@ export default function Header() {
             {/* Scroll State Header */}  
             <header className={`scroll-header-style-0 ${isScrolled ? 'scroll-header-visible' : 'scroll-header-hidden'}`}>
 
-                <div className="scroll-header-style-1" bis_skin_checked="1">
-                    <div className="scroll-header-style-2" bis_skin_checked="1">
+                <div className="scroll-header-style-1">
+                    <div className="scroll-header-style-2">
 
-                        <div className="scroll-header-style-3" bis_skin_checked="1">
+                        <div className="scroll-header-style-3">
 
                             <a href="https://www.align.com" className="scroll-header-style-4">
 
@@ -1351,23 +1351,23 @@ export default function Header() {
                             </span>
                         </div>
                         <nav className="scroll-header-style-11" aria-label=" menu">
-                            <div className="scroll-header-style-12" bis_skin_checked="1">
-                                <div className="scroll-header-style-13" bis_skin_checked="1">
+                            <div className="scroll-header-style-12">
+                                <div className="scroll-header-style-13">
                                     <nav className="scroll-header-style-14">
                                         <span className="scroll-header-style-15">
-                                            <div className="scroll-header-style-16" bis_skin_checked="1">
+                                            <div className="scroll-header-style-16">
 
 
 
-                                                <div className="scroll-header-style-17" bis_skin_checked="1">
-                                                    <img src="https://www.align.com/hs-fs/hubfs/2023-assets/icons8-earth-planet-64.webp?width=20&amp;height=20&amp;name=icons8-earth-planet-64.webp" height="20" width="20" alt="language switcher" srcset="https://www.align.com/hs-fs/hubfs/2023-assets/icons8-earth-planet-64.webp?width=10&amp;height=10&amp;name=icons8-earth-planet-64.webp 10w, https://www.align.com/hs-fs/hubfs/2023-assets/icons8-earth-planet-64.webp?width=20&amp;height=20&amp;name=icons8-earth-planet-64.webp 20w, https://www.align.com/hs-fs/hubfs/2023-assets/icons8-earth-planet-64.webp?width=30&amp;height=30&amp;name=icons8-earth-planet-64.webp 30w, https://www.align.com/hs-fs/hubfs/2023-assets/icons8-earth-planet-64.webp?width=40&amp;height=40&amp;name=icons8-earth-planet-64.webp 40w, https://www.align.com/hs-fs/hubfs/2023-assets/icons8-earth-planet-64.webp?width=50&amp;height=50&amp;name=icons8-earth-planet-64.webp 50w, https://www.align.com/hs-fs/hubfs/2023-assets/icons8-earth-planet-64.webp?width=60&amp;height=60&amp;name=icons8-earth-planet-64.webp 60w" sizes="(max-width: 20px) 100vw, 20px" className="scroll-header-style-18" />
+                                                <div className="scroll-header-style-17">
+                                                    <img src="https://www.align.com/hs-fs/hubfs/2023-assets/icons8-earth-planet-64.webp?width=20&amp;height=20&amp;name=icons8-earth-planet-64.webp" height="20" width="20" alt="language switcher" srcSet="https://www.align.com/hs-fs/hubfs/2023-assets/icons8-earth-planet-64.webp?width=10&amp;height=10&amp;name=icons8-earth-planet-64.webp 10w, https://www.align.com/hs-fs/hubfs/2023-assets/icons8-earth-planet-64.webp?width=20&amp;height=20&amp;name=icons8-earth-planet-64.webp 20w, https://www.align.com/hs-fs/hubfs/2023-assets/icons8-earth-planet-64.webp?width=30&amp;height=30&amp;name=icons8-earth-planet-64.webp 30w, https://www.align.com/hs-fs/hubfs/2023-assets/icons8-earth-planet-64.webp?width=40&amp;height=40&amp;name=icons8-earth-planet-64.webp 40w, https://www.align.com/hs-fs/hubfs/2023-assets/icons8-earth-planet-64.webp?width=50&amp;height=50&amp;name=icons8-earth-planet-64.webp 50w, https://www.align.com/hs-fs/hubfs/2023-assets/icons8-earth-planet-64.webp?width=60&amp;height=60&amp;name=icons8-earth-planet-64.webp 60w" sizes="(max-width: 20px) 100vw, 20px" className="scroll-header-style-18" />
                                                     Language:
                                                 </div>
-                                                <div bis_skin_checked="1" className="scroll-header-style-19">
+                                                <div className="scroll-header-style-19">
                                                     <span className="scroll-header-style-20" data-hs-cos-general-type="widget" data-hs-cos-type="language_switcher"></span>
                                                 </div>
-                                                <div className="scroll-header-style-21" bis_skin_checked="1">
-                                                    <div className="scroll-header-style-22" onclick="" bis_skin_checked="1">
+                                                <div className="scroll-header-style-21">
+                                                    <div className="scroll-header-style-22">
                                                         <ul className="scroll-header-style-23">
 
 
@@ -1399,21 +1399,21 @@ export default function Header() {
                                 </div>
                             </div>
                             <ul className="scroll-header-style-38">
-                                <li className="scroll-header-style-39" aria-role="none" aria-haspopup="true">
-                                    <a className="scroll-header-style-40" href="https://www.align.com/solutions/data-center-solutions?hsLang=en" aria-role="menuitem">
+                                <li className="scroll-header-style-39" role="none" aria-haspopup="true">
+                                    <a className="scroll-header-style-40" href="https://www.align.com/solutions/data-center-solutions?hsLang=en" role="menuitem">
                                         Data Center Infrastructure Solutions
 
                                         <svg width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg" className="scroll-header-style-41">
                                             <path d="M6.70711 9.68899C6.31658 10.0795 5.68342 10.0795 5.29289 9.68899L0.7 5.09609C0.313401 4.70949 0.313401 4.08269 0.7 3.69609C1.0866 3.30949 1.7134 3.30949 2.1 3.69609L6 7.59609L9.9 3.69609C10.2866 3.30949 10.9134 3.30949 11.3 3.69609C11.6866 4.08269 11.6866 4.70949 11.3 5.09609L6.70711 9.68899Z" fill="currentColor" className="scroll-header-style-42"></path>
                                         </svg> </a>
-                                    <div className="scroll-header-style-43" bis_skin_checked="1">
-                                        <div className="scroll-header-style-44" bis_skin_checked="1">
+                                    <div className="scroll-header-style-43">
+                                        <div className="scroll-header-style-44">
                                             <h2 className="scroll-header-style-45">Data Center Technology Infrastructure Solutions</h2>
                                         </div>
-                                        <div className="scroll-header-style-46" bis_skin_checked="1">
-                                            <div className="scroll-header-style-47" bis_skin_checked="1">
+                                        <div className="scroll-header-style-46">
+                                            <div className="scroll-header-style-47">
                                                 <h4 className="scroll-header-style-48"><a href="https://www.align.com/assess-modernize?hsLang=en" rel="noopener" className="scroll-header-style-49">Assess &amp; Modernize</a></h4> <span className="scroll-header-style-50" data-hs-cos-general-type="widget" data-hs-cos-type="simple_menu">
-                                                    <div className="scroll-header-style-51" role="navigation" data-sitemap-name="" data-menu-id="" aria-label="Navigation Menu" bis_skin_checked="1">
+                                                    <div className="scroll-header-style-51" role="navigation" data-sitemap-name="" data-menu-id="" aria-label="Navigation Menu">
                                                         <ul role="menu" className="scroll-header-style-52">
                                                             <li className="scroll-header-style-53" role="none"><a href="https://www.align.com/assess-modernize?tab=hs-tabs__tab-1--widget_1744037119268" role="menuitem" target="_self" className="scroll-header-style-54">Critical Facility Assessments</a></li>
                                                             <li className="scroll-header-style-55" role="none"><a href="https://www.align.com/assess-modernize?tab=hs-tabs__tab-2--widget_1744037119268" role="menuitem" target="_self" className="scroll-header-style-56">Current State Assessments</a></li>
@@ -1422,9 +1422,9 @@ export default function Header() {
                                                     </div>
                                                 </span>
                                             </div>
-                                            <div className="scroll-header-style-59" bis_skin_checked="1">
+                                            <div className="scroll-header-style-59">
                                                 <h4 className="scroll-header-style-60"><a href="https://www.align.com/design-procure?hsLang=en" rel="noopener" className="scroll-header-style-61">Design &amp; Plan</a></h4> <span className="scroll-header-style-62" data-hs-cos-general-type="widget" data-hs-cos-type="simple_menu">
-                                                    <div className="scroll-header-style-63" role="navigation" data-sitemap-name="" data-menu-id="" aria-label="Navigation Menu" bis_skin_checked="1">
+                                                    <div className="scroll-header-style-63" role="navigation" data-sitemap-name="" data-menu-id="" aria-label="Navigation Menu">
                                                         <ul role="menu" className="scroll-header-style-64">
                                                             <li className="scroll-header-style-65" role="none"><a href="javascript:void(0);" role="menuitem" target="_self" className="scroll-header-style-66">Infrastructure Design</a></li>
                                                             <li className="scroll-header-style-67" role="none"><a href="javascript:void(0);" role="menuitem" target="_self" className="scroll-header-style-68">AI Readiness</a></li>
@@ -1432,9 +1432,9 @@ export default function Header() {
                                                     </div>
                                                 </span>
                                             </div>
-                                            <div className="scroll-header-style-69" bis_skin_checked="1">
+                                            <div className="scroll-header-style-69">
                                                 <h4 className="scroll-header-style-70"><a href="https://www.align.com/build-optimize?hsLang=en" rel="noopener" className="scroll-header-style-71">Procure &amp; Build</a></h4> <span className="scroll-header-style-72" data-hs-cos-general-type="widget" data-hs-cos-type="simple_menu">
-                                                    <div className="scroll-header-style-73" role="navigation" data-sitemap-name="" data-menu-id="" aria-label="Navigation Menu" bis_skin_checked="1">
+                                                    <div className="scroll-header-style-73" role="navigation" data-sitemap-name="" data-menu-id="" aria-label="Navigation Menu">
                                                         <ul role="menu" className="scroll-header-style-74">
                                                             <li className="scroll-header-style-75" role="none"><a href="javascript:void(0);" role="menuitem" target="_self" className="scroll-header-style-76">Procurement</a></li>
                                                             <li className="scroll-header-style-77" role="none"><a href="javascript:void(0);" role="menuitem" target="_self" className="scroll-header-style-78">Vendor Management</a></li>
@@ -1445,9 +1445,9 @@ export default function Header() {
                                                     </div>
                                                 </span>
                                             </div>
-                                            <div className="scroll-header-style-85" bis_skin_checked="1">
+                                            <div className="scroll-header-style-85">
                                                 <h4 className="scroll-header-style-86"><a href="https://www.align.com/en-us/asset-point?hsLang=en" rel="noopener" className="scroll-header-style-87">Manage &amp; Optimize</a></h4> <span className="scroll-header-style-88" data-hs-cos-general-type="widget" data-hs-cos-type="simple_menu">
-                                                    <div className="scroll-header-style-89" role="navigation" data-sitemap-name="" data-menu-id="" aria-label="Navigation Menu" bis_skin_checked="1">
+                                                    <div className="scroll-header-style-89" role="navigation" data-sitemap-name="" data-menu-id="" aria-label="Navigation Menu">
                                                         <ul role="menu" className="scroll-header-style-90">
                                                             <li className="scroll-header-style-91" role="none"><a href="https://www.align.com/en-us/asset-point" role="menuitem" target="_self" className="scroll-header-style-92">Asset Point® - Align's DCIM Platform</a></li>
                                                         </ul>
@@ -1457,22 +1457,22 @@ export default function Header() {
                                         </div>
                                     </div>
                                 </li>
-                                <li className="scroll-header-style-93" aria-role="none" aria-haspopup="true">
-                                    <a className="scroll-header-style-94" href="https://www.align.com/professional-services/workplace-technology?hsLang=en" aria-role="menuitem">
+                                <li className="scroll-header-style-93" role="none" aria-haspopup="true">
+                                    <a className="scroll-header-style-94" href="https://www.align.com/professional-services/workplace-technology?hsLang=en" role="menuitem">
                                         Workplace Technology
 
                                         <svg width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg" className="scroll-header-style-95">
                                             <path d="M6.70711 9.68899C6.31658 10.0795 5.68342 10.0795 5.29289 9.68899L0.7 5.09609C0.313401 4.70949 0.313401 4.08269 0.7 3.69609C1.0866 3.30949 1.7134 3.30949 2.1 3.69609L6 7.59609L9.9 3.69609C10.2866 3.30949 10.9134 3.30949 11.3 3.69609C11.6866 4.08269 11.6866 4.70949 11.3 5.09609L6.70711 9.68899Z" fill="currentColor" className="scroll-header-style-96"></path>
                                         </svg> </a>
-                                    <div className="scroll-header-style-97" bis_skin_checked="1">
-                                        <div className="scroll-header-style-98" bis_skin_checked="1">
+                                    <div className="scroll-header-style-97">
+                                        <div className="scroll-header-style-98">
                                             <h2 className="scroll-header-style-99">Workplace Technology&nbsp;</h2>
                                             <p className="scroll-header-style-100">No matter how the office evolves, Align works closely with businesses to provide a connected IT enterprise for today’s hybrid professional that’s built to be secure, flexible and reliable.</p>
                                         </div>
-                                        <div className="scroll-header-style-101" bis_skin_checked="1">
-                                            <div className="scroll-header-style-102" bis_skin_checked="1">
+                                        <div className="scroll-header-style-101">
+                                            <div className="scroll-header-style-102">
                                                 <h4 className="scroll-header-style-103">Solutions</h4> <span className="scroll-header-style-104" data-hs-cos-general-type="widget" data-hs-cos-type="simple_menu">
-                                                    <div className="scroll-header-style-105" role="navigation" data-sitemap-name="" data-menu-id="" aria-label="Navigation Menu" bis_skin_checked="1">
+                                                    <div className="scroll-header-style-105" role="navigation" data-sitemap-name="" data-menu-id="" aria-label="Navigation Menu">
                                                         <ul role="menu" className="scroll-header-style-106">
                                                             <li className="scroll-header-style-107" role="none"><a href="https://www.align.com/hq-branch-technology-design" role="menuitem" target="_self" className="scroll-header-style-108">HQ &amp; Branch Technology Design</a></li>
                                                             <li className="scroll-header-style-109" role="none"><a href="https://www.align.com/networking-wi-fi" role="menuitem" target="_self" className="scroll-header-style-110">Networking &amp; Wi-Fi</a></li>
@@ -1484,9 +1484,9 @@ export default function Header() {
                                                     </div>
                                                 </span>
                                             </div>
-                                            <div className="scroll-header-style-119" bis_skin_checked="1">
+                                            <div className="scroll-header-style-119">
                                                 <h4 className="scroll-header-style-120">News &amp; Resources</h4> <span className="scroll-header-style-121" data-hs-cos-general-type="widget" data-hs-cos-type="simple_menu">
-                                                    <div className="scroll-header-style-122" role="navigation" data-sitemap-name="" data-menu-id="" aria-label="Navigation Menu" bis_skin_checked="1">
+                                                    <div className="scroll-header-style-122" role="navigation" data-sitemap-name="" data-menu-id="" aria-label="Navigation Menu">
                                                         <ul role="menu" className="scroll-header-style-123">
                                                             <li className="scroll-header-style-124" role="none"><a href="https://www.align.com/blog" role="menuitem" target="_self" className="scroll-header-style-125">Blog</a></li>
                                                             <li className="scroll-header-style-126" role="none"><a href="https://www.align.com/resource-library" role="menuitem" target="_self" className="scroll-header-style-127">Resource Center</a></li>
@@ -1500,22 +1500,22 @@ export default function Header() {
                                         </div>
                                     </div>
                                 </li>
-                                <li className="scroll-header-style-134" aria-role="none" aria-haspopup="true">
-                                    <a className="scroll-header-style-135" href="https://www.align.com/managed-services?hsLang=en" aria-role="menuitem">
+                                <li className="scroll-header-style-134" role="none" aria-haspopup="true">
+                                    <a className="scroll-header-style-135" href="https://www.align.com/managed-services?hsLang=en" role="menuitem">
                                         Managed Services
 
                                         <svg width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg" className="scroll-header-style-136">
                                             <path d="M6.70711 9.68899C6.31658 10.0795 5.68342 10.0795 5.29289 9.68899L0.7 5.09609C0.313401 4.70949 0.313401 4.08269 0.7 3.69609C1.0866 3.30949 1.7134 3.30949 2.1 3.69609L6 7.59609L9.9 3.69609C10.2866 3.30949 10.9134 3.30949 11.3 3.69609C11.6866 4.08269 11.6866 4.70949 11.3 5.09609L6.70711 9.68899Z" fill="currentColor" className="scroll-header-style-137"></path>
                                         </svg> </a>
-                                    <div className="scroll-header-style-138" bis_skin_checked="1">
-                                        <div className="scroll-header-style-139" bis_skin_checked="1">
+                                    <div className="scroll-header-style-138">
+                                        <div className="scroll-header-style-139">
                                             <h2 className="scroll-header-style-140">Managed Services &amp; Cybersecurity</h2>
                                             <p className="scroll-header-style-141">Award-winning, scalable, and secure IT solutions from the industry’s premier Managed Services Provider.</p>
                                         </div>
-                                        <div className="scroll-header-style-142" bis_skin_checked="1">
-                                            <div className="scroll-header-style-143" bis_skin_checked="1">
+                                        <div className="scroll-header-style-142">
+                                            <div className="scroll-header-style-143">
                                                 <h4 className="scroll-header-style-144">Managed Services&nbsp;</h4> <span className="scroll-header-style-145" data-hs-cos-general-type="widget" data-hs-cos-type="simple_menu">
-                                                    <div className="scroll-header-style-146" role="navigation" data-sitemap-name="" data-menu-id="" aria-label="Navigation Menu" bis_skin_checked="1">
+                                                    <div className="scroll-header-style-146" role="navigation" data-sitemap-name="" data-menu-id="" aria-label="Navigation Menu">
                                                         <ul role="menu" className="scroll-header-style-147">
                                                             <li className="scroll-header-style-148" role="none"><a href="https://www.align.com/align-it-suite" role="menuitem" target="_self" className="scroll-header-style-149">Align IT Suite</a></li>
                                                             <li className="scroll-header-style-150" role="none"><a href="https://www.align.com/managed-cloud-services" role="menuitem" target="_self" className="scroll-header-style-151">Cloud Services</a></li>
@@ -1529,9 +1529,9 @@ export default function Header() {
                                                     </div>
                                                 </span>
                                             </div>
-                                            <div className="scroll-header-style-164" bis_skin_checked="1">
+                                            <div className="scroll-header-style-164">
                                                 <h4 className="scroll-header-style-165">Cybersecurity</h4> <span className="scroll-header-style-166" data-hs-cos-general-type="widget" data-hs-cos-type="simple_menu">
-                                                    <div className="scroll-header-style-167" role="navigation" data-sitemap-name="" data-menu-id="" aria-label="Navigation Menu" bis_skin_checked="1">
+                                                    <div className="scroll-header-style-167" role="navigation" data-sitemap-name="" data-menu-id="" aria-label="Navigation Menu">
                                                         <ul role="menu" className="scroll-header-style-168">
                                                             <li className="scroll-header-style-169" role="none"><a href="https://www.align.com/align-cybersecurity" role="menuitem" target="_self" className="scroll-header-style-170">Align Cybersecurity </a></li>
                                                             <li className="scroll-header-style-171" role="none"><a href="https://www.align.com/align-cybersecurity" aria-haspopup="true" aria-expanded="false" role="menuitem" target="_self" className="scroll-header-style-172">Solutions</a>
@@ -1548,9 +1548,9 @@ export default function Header() {
                                                     </div>
                                                 </span>
                                             </div>
-                                            <div className="scroll-header-style-186" bis_skin_checked="1">
+                                            <div className="scroll-header-style-186">
                                                 <h4 className="scroll-header-style-187">Resources &amp; Press</h4> <span className="scroll-header-style-188" data-hs-cos-general-type="widget" data-hs-cos-type="simple_menu">
-                                                    <div className="scroll-header-style-189" role="navigation" data-sitemap-name="" data-menu-id="" aria-label="Navigation Menu" bis_skin_checked="1">
+                                                    <div className="scroll-header-style-189" role="navigation" data-sitemap-name="" data-menu-id="" aria-label="Navigation Menu">
                                                         <ul role="menu" className="scroll-header-style-190">
                                                             <li className="scroll-header-style-191" role="none"><a href="https://www.align.com/blog" role="menuitem" target="_self" className="scroll-header-style-192">Blog</a></li>
                                                             <li className="scroll-header-style-193" role="none"><a href="https://www.align.com/resource-library?topic=managed-services" role="menuitem" target="_self" className="scroll-header-style-194">Resource Center</a></li>
@@ -1564,9 +1564,9 @@ export default function Header() {
                                                     </div>
                                                 </span>
                                             </div>
-                                            <div className="scroll-header-style-207" bis_skin_checked="1">
+                                            <div className="scroll-header-style-207">
                                                 <h4 className="scroll-header-style-208">Why Align Managed Services</h4> <span className="scroll-header-style-209" data-hs-cos-general-type="widget" data-hs-cos-type="simple_menu">
-                                                    <div className="scroll-header-style-210" role="navigation" data-sitemap-name="" data-menu-id="" aria-label="Navigation Menu" bis_skin_checked="1">
+                                                    <div className="scroll-header-style-210" role="navigation" data-sitemap-name="" data-menu-id="" aria-label="Navigation Menu">
                                                         <ul role="menu" className="scroll-header-style-211">
                                                             <li className="scroll-header-style-212" role="none"><a href="https://www.align.com/managed-services-leadership" role="menuitem" target="_self" className="scroll-header-style-213">Leadership</a></li>
                                                             <li className="scroll-header-style-214" role="none"><a href="https://www.align.com/awards" role="menuitem" target="_self" className="scroll-header-style-215">Awards</a></li>
@@ -1581,22 +1581,22 @@ export default function Header() {
                                         </div>
                                     </div>
                                 </li>
-                                <li className="scroll-header-style-224" aria-role="none" aria-haspopup="true">
-                                    <a className="scroll-header-style-225" href="https://www.align.com/about?hsLang=en" aria-role="menuitem">
+                                <li className="scroll-header-style-224" role="none" aria-haspopup="true">
+                                    <a className="scroll-header-style-225" href="https://www.align.com/about?hsLang=en" role="menuitem">
                                         About Align
 
                                         <svg width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg" className="scroll-header-style-226">
                                             <path d="M6.70711 9.68899C6.31658 10.0795 5.68342 10.0795 5.29289 9.68899L0.7 5.09609C0.313401 4.70949 0.313401 4.08269 0.7 3.69609C1.0866 3.30949 1.7134 3.30949 2.1 3.69609L6 7.59609L9.9 3.69609C10.2866 3.30949 10.9134 3.30949 11.3 3.69609C11.6866 4.08269 11.6866 4.70949 11.3 5.09609L6.70711 9.68899Z" fill="currentColor" className="scroll-header-style-227"></path>
                                         </svg> </a>
-                                    <div className="scroll-header-style-228" bis_skin_checked="1">
-                                        <div className="scroll-header-style-229" bis_skin_checked="1">
+                                    <div className="scroll-header-style-228">
+                                        <div className="scroll-header-style-229">
                                             <h2 className="scroll-header-style-230">About Align</h2>
                                             <p className="scroll-header-style-231">Over 35 Years' Experience, High-caliber IT Solutions, Award-Winning Professionals and Managed IT Services, Subject Matter Experts</p>
                                         </div>
-                                        <div className="scroll-header-style-232" bis_skin_checked="1">
-                                            <div className="scroll-header-style-233" bis_skin_checked="1">
+                                        <div className="scroll-header-style-232">
+                                            <div className="scroll-header-style-233">
                                                 <h4 className="scroll-header-style-234">About Align</h4> <span className="scroll-header-style-235" data-hs-cos-general-type="widget" data-hs-cos-type="simple_menu">
-                                                    <div className="scroll-header-style-236" role="navigation" data-sitemap-name="" data-menu-id="" aria-label="Navigation Menu" bis_skin_checked="1">
+                                                    <div className="scroll-header-style-236" role="navigation" data-sitemap-name="" data-menu-id="" aria-label="Navigation Menu">
                                                         <ul role="menu" className="scroll-header-style-237">
                                                             <li className="scroll-header-style-238" role="none"><a href="https://www.align.com/about" role="menuitem" target="_self" className="scroll-header-style-239">About Align</a></li>
                                                             <li className="scroll-header-style-240" role="none"><a href="https://www.align.com/leadership" role="menuitem" target="_self" className="scroll-header-style-241">Leadership</a></li>

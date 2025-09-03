@@ -101,37 +101,37 @@ export default function Stats() {
     return (
         <>
             <section ref={sectionRef} className="stat-style-0">
-                <div className="stat-container-style-1" bis_skin_checked="1">
-                    <div className="stat-container-style-2" bis_skin_checked="1">
-                        <div className="stat-container-style-3" bis_skin_checked="1">
-                            <div className="stat-container-style-4" bis_skin_checked="1">
+                <div className="stat-container-style-1">
+                    <div className="stat-container-style-2">
+                        <div className="stat-container-style-3">
+                            <div className="stat-container-style-4">
                                 <span className="stat-container-style-5"></span><span className="stat-container-style-6">{formatNumber(counters.counter1)}</span><span className="stat-container-style-7"></span>
                             </div>
-                            <div className="stat-container-style-8" bis_skin_checked="1">Professionals and counting</div>
+                            <div className="stat-container-style-8">Professionals and counting</div>
                         </div>
-                        <div className="stat-container-style-9" bis_skin_checked="1">
-                            <div className="stat-container-style-10" bis_skin_checked="1">
+                        <div className="stat-container-style-9">
+                            <div className="stat-container-style-10">
                                 <span className="stat-container-style-11"></span><span className="stat-container-style-12">{counters.counter2}</span><span className="stat-container-style-13">+ GW</span>
                             </div>
-                            <div className="stat-container-style-14" bis_skin_checked="1">of Data Centers Built</div>
+                            <div className="stat-container-style-14">of Data Centers Built</div>
                         </div>
-                        <div className="stat-container-style-15" bis_skin_checked="1">
-                            <div className="stat-container-style-16" bis_skin_checked="1">
+                        <div className="stat-container-style-15">
+                            <div className="stat-container-style-16">
                                 <span className="stat-container-style-17"></span><span className="stat-container-style-18">{formatNumber(counters.counter3)}</span><span className="stat-container-style-19">+</span>
                             </div>
-                            <div className="stat-container-style-20" bis_skin_checked="1">Monitored &amp; Protected Devices</div>
+                            <div className="stat-container-style-20">Monitored &amp; Protected Devices</div>
                         </div>
-                        <div className="stat-container-style-21" bis_skin_checked="1">
-                            <div className="stat-container-style-22" bis_skin_checked="1">
+                        <div className="stat-container-style-21">
+                            <div className="stat-container-style-22">
                                 <span className="stat-container-style-23"></span><span className="stat-container-style-24">{formatNumber(counters.counter4)}</span><span className="stat-container-style-25">+</span>
                             </div>
-                            <div className="stat-container-style-26" bis_skin_checked="1">Applications Migrated in 2025</div>
+                            <div className="stat-container-style-26">Applications Migrated in 2025</div>
                         </div>
-                        <div className="stat-container-style-27" bis_skin_checked="1">
-                            <div className="stat-container-style-28" bis_skin_checked="1">
+                        <div className="stat-container-style-27">
+                            <div className="stat-container-style-28">
                                 <span className="stat-container-style-29"></span><span className="stat-container-style-30">{counters.counter5}</span><span className="stat-container-style-31">M sq. ft.</span>
                             </div>
-                            <div className="stat-container-style-32" bis_skin_checked="1">Workplaces Transformed in 2025</div>
+                            <div className="stat-container-style-32">Workplaces Transformed in 2025</div>
                         </div>
                     </div>
                 </div>
