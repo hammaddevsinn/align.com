@@ -4,7 +4,7 @@ import "./Search.css";
 export default function Search() {
     return (
         <>
-                <div className="search-style-0" tabindex="0">
+                <div className="search-style-0" tabIndex="0">
                 <div className="search-style-1">
                     <div className="search-style-2">
                         <button onClick="modalClose()" className="search-style-3" title="Press Escape To Close As Well">× <span className="search-style-4">Close Search</span></button>
