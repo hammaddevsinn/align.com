@@ -1,5 +1,6 @@
 "use client"
 
+import Link from "next/link";
 import "./Footer.css";
 
 export default function Footer() {
@@ -11,8 +12,9 @@ export default function Footer() {
                     <div className="footer-style-3" bis_skin_checked="1">
                         <div className="footer-style-4" bis_skin_checked="1">
                             <div className="footer-style-5" bis_skin_checked="1">
-                                <a href="/?hsLang=en" className="footer-style-6">
-                                    <img src="https://www.align.com/hubfs/align-fullcolor-logo.svg" alt="align-fullcolor-logo" loading="lazy" width="136" height="46" className="footer-style-7" /> </a>
+                                <Link href="/" className="footer-style-6">
+                                    <img src="https://www.align.com/hubfs/align-fullcolor-logo.svg" alt="align-fullcolor-logo" loading="lazy" width="136" height="46" className="footer-style-7" />
+                                </Link>
                             </div>
                             <div className="footer-style-8" bis_skin_checked="1">
                                 <span className="footer-style-9" data-hs-cos-general-type="widget" data-hs-cos-type="form">
