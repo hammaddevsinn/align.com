@@ -24,7 +24,6 @@ export default function Hero() {
                             </defs>
                         </svg>
                         <h2 className="text-style-9">
-
                             Turnkey Technology Infrastructure Solutions
                         </h2>
                     </div>
