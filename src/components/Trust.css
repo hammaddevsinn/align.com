@@ -1,224 +1,71 @@
-.trust-style-0 {
-    opacity: 1;
-    height: 535.8px;
-    left: 0px;
-    width: 100%;
-    /* overflow: hidden; */
-    background: linear-gradient(rgba(20, 20, 20, 0.7), rgba(20, 20, 20, 0.7)), url("/images/trust.jpeg");
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-    box-sizing: border-box;
-}
+"use client";
 
-.trust-arrow-style-0 {
-    max-width: 1200px;
-    width: 100%;
-    padding-left: 36px;
-    padding-right: 36px;
-    margin: auto;
-    fill: rgb(255, 255, 255);
-    position: relative;
-    z-index: 0;
-    top: 0px;
-    padding-bottom: 36px;
-    box-sizing: border-box;
-}
+export default function Trust() {
+  return (
+    <section className="relative w-full pb-12 md:pb-20 overflow-hidden">
+      {/* Background Image */}
+      <img
+        src="/images/trust.jpeg"
+        alt="Trust"
+        className="absolute inset-0 w-full h-full object-contain transition-transform duration-700 ease-out"
+      />
 
-.trust-arrow-style-1 {
-    display: block;
-    width: 24px;
-    box-sizing: border-box;
-}
+      {/* Dark Overlay */}
+      <div className="absolute inset-0 bg-black/50" />
 
-.trust-arrow-style-2 {
-    box-sizing: border-box;
-}
+      {/* Content */}
+      <div className="relative px-5 lg:px-52 text-white space-y-6">
+        {/* Arrow at Top */}
+        <svg
+          width="24"
+          height="70"
+          viewBox="0 0 24 80"
+          xmlns="http://www.w3.org/2000/svg"
+          className="text-white mb-6"
+        >
+          <path
+            d="M10.9393 69.4069C11.5251 69.9926 12.4749 69.9926 13.0607 69.4069L22.6066 59.8609C23.1924 59.2751 23.1924 58.3254 22.6066 57.7396C22.0208 57.1538 21.0711 57.1538 20.4853 57.7396L12 66.2249L3.51476 57.7396C2.92897 57.1538 1.97922 57.1538 1.39344 57.7396C0.807654 58.3254 0.807654 59.2751 1.39344 59.8609L10.9393 69.4069ZM10.5 0.5V68.3462H13.5V0.5H10.5Z"
+            fill="currentColor"
+          />
+        </svg>
 
-.trust-text-style-0 {
-    position: relative;
-    z-index: 0;
-    max-width: 1200px;
-    width: 100%;
-    padding-left: 36px;
-    padding-right: 36px;
-    margin: auto;
-    box-sizing: border-box;
-}
+        {/* Text Content */}
+        <div data-aos="fade-right" data-aos-delay="200" className="space-y-6">
+          <p className="text-sm uppercase tracking-widest text-gray-300">
+            Trust
+          </p>
 
-.trust-text-style-1 {
-    gap: 3.33333%;
-    width: 100%;
-    flex-flow: row nowrap;
-    display: flex;
-    box-sizing: border-box;
-}
+          <h2 className="text-3xl md:text-5xl font-bold">
+            We're built on relationships.
+          </h2>
 
-.trust-text-style-2 {
-    width: 65.55%;
-    transform: matrix(1, 0, 0, 1, 0, 0);
-    opacity: 1;
-    transition-property: opacity, transform;
-    transition-timing-function: ease;
-    transition-duration: 0.8s;
-    transition-delay: 0.2s;
-    order: 0;
-    box-sizing: border-box;
-}
+          <ul className="list-disc pl-5 space-y-2 text-lg text-gray-200">
+            <li>
+              We have delivered IT solutions across industries for over three
+              decades.
+            </li>
+            <li>
+              Our people, process, and tools have transformed technology for the
+              world's top companies.
+            </li>
+            <li>
+              We have achieved universal respect by nurturing relationships on a
+              global scale.
+            </li>
+          </ul>
 
-.trust-text-style-3 {
-    color: rgb(255, 255, 255);
-    box-sizing: border-box;
-}
-
-.trust-text-style-4 {
-    margin-bottom: 36px;
-    color: rgb(255, 255, 255);
-    box-sizing: border-box;
-}
-
-.trust-text-style-5 {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-    color: rgb(255, 255, 255);
-    box-sizing: border-box;
-}
-
-.trust-text-style-6 {
-    font-size: 46px;
-    font-weight: 600;
-    line-height: 50.6px;
-    color: rgb(255, 255, 255);
-    margin-top: 0px;
-    margin-bottom: 18px;
-    box-sizing: border-box;
-}
-
-.trust-text-style-7 {
-    font-weight: 600;
-    display: block;
-    color: rgb(255, 255, 255);
-    box-sizing: border-box;
-}
-
-.trust-text-style-8 {
-    color: rgb(255, 255, 255);
-    box-sizing: border-box;
-}
-
-.trust-text-style-9 {
-    color: rgb(255, 255, 255);
-    margin-top: 0px;
-    padding-left: 13.5px;
-    box-sizing: border-box;
-}
-
-.trust-text-style-10 {
-    list-style-image: url('https://www.align.com/hubfs/2023-assets/check_small.svg');
-    margin-left: 15px;
-    color: rgb(255, 255, 255);
-    list-style-type: '≫';
-    padding-left: 9px;
-    margin-bottom: 9px;
-    font-size: 18px;
-    box-sizing: border-box;
-}
-
-.trust-text-style-11 {
-    list-style-image: url('https://www.align.com/hubfs/2023-assets/check_small.svg');
-    margin-left: 15px;
-    color: rgb(255, 255, 255);
-    list-style-type: '≫';
-    padding-left: 9px;
-    margin-bottom: 9px;
-    font-size: 18px;
-    box-sizing: border-box;
-}
-
-.trust-text-style-12 {
-    list-style-image: url('https://www.align.com/hubfs/2023-assets/check_small.svg');
-    margin-left: 15px;
-    color: rgb(255, 255, 255);
-    list-style-type: '≫';
-    padding-left: 9px;
-    margin-bottom: 9px;
-    font-size: 18px;
-    box-sizing: border-box;
-}
-
-.trust-text-style-13 {
-    color: rgb(255, 255, 255);
-    box-sizing: border-box;
-}
-
-.trust-text-style-14 {
-    background: rgba(0, 0, 0, 0) linear-gradient(88.89deg, rgb(0, 138, 212) 10.61%, rgb(0, 209, 255) 64.08%) repeat scroll 0% 0% / auto padding-box border-box;
-    box-shadow: rgba(20, 20, 20, 0.25) 0px 3px 9px 0px;
-    border-radius: 5px;
-    padding: 15px 23px;
-    text-align: center;
-    color: rgb(20, 20, 20);
-    border: 0px none rgb(20, 20, 20);
-    display: inline-block;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 18px;
-    text-decoration: none solid rgb(20, 20, 20);
-    cursor: pointer;
-    transition: background 0.25s, color 0.25s, box-shadow 0.25s;
-    text-underline-offset: 2px;
-    box-sizing: border-box;
-    background-color: rgba(0, 0, 0, 0);
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .trust-text-style-1 {
-        flex-direction: column;
-        gap: 40px;
-    }
-    
-    .trust-text-style-2 {
-        width: 100%;
-    }
-    
-    .trust-text-style-0 {
-        padding-left: 24px;
-        padding-right: 24px;
-    }
-    
-    .trust-arrow-style-0 {
-        padding-left: 24px;
-        padding-right: 24px;
-    }
-}
-
-@media (max-width: 693px) {
-    .trust-style-0 {
-        height: 583px;
-    }
-}
-
-@media (max-width: 460px) {
-    .trust-style-0 {
-        height: 650px;
-    }
-}
-
-@media (max-width: 400px) {
-    .trust-style-0 {
-        height: 680px;
-    }
-}
-
-@media (max-width: 340px) {
-    .trust-style-0 {
-        height: 766px;
-    }
+          <a
+            href="https://www.align.com/testimonials?hsLang=en"
+            className="inline-block px-6 py-3 rounded-lg text-white font-medium transition"
+            style={{
+              backgroundImage:
+                "linear-gradient(88.89deg, #008AD4 10.61%, #00D1FF 64.08%)",
+            }}
+          >
+            See for Yourself
+          </a>
+        </div>
+      </div>
+    </section>
+  );
 }

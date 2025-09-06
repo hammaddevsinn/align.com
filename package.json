@@ -10,11 +10,13 @@
   },
   "dependencies": {
     "@dotlottie/player-component": "^2.7.12",
+    "@heroicons/react": "^2.2.0",
     "@lottiefiles/lottie-player": "^2.0.12",
     "@lottiefiles/react-lottie-player": "^3.6.0",
     "@splidejs/react-splide": "^0.7.12",
     "@splidejs/splide": "^4.1.4",
     "aos": "^2.3.4",
+    "heroicons": "^2.2.0",
     "lottie-react": "^2.4.1",
     "next": "15.5.2",
     "react": "19.1.0",
