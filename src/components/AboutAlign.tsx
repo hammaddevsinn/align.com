@@ -1,80 +1,102 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import { useEffect, useRef } from "react";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
-import "./AboutAlign.css";
-
-const Player = dynamic(() => import("@lottiefiles/react-lottie-player").then(mod => ({ default: mod.Player })), {
+const Player = dynamic(
+  () =>
+    import("@lottiefiles/react-lottie-player").then((mod) => ({
+      default: mod.Player,
+    })),
+  {
     ssr: false,
-    loading: () => <div style={{ width: '100%', height: '400px' }} />
-});
+    loading: () => <div className="w-full h-[400px]" />,
+  }
+);
 
 export default function AboutAlign() {
-    const textRef = useRef<HTMLDivElement>(null);
-    const animationRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      easing: "ease-in-out",
+      once: false,
+    });
+  }, []);
 
-    useEffect(() => {
-        const observer = new IntersectionObserver(
-            (entries) => {
-                entries.forEach((entry) => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('animate');
-                    } else {
-                        entry.target.classList.remove('animate');
-                    }
-                });
-            },
-            { 
-                threshold: 0.3,
-                rootMargin: '0px 0px -20% 0px'
-            }
-        );
-
-        if (textRef.current) observer.observe(textRef.current);
-        if (animationRef.current) observer.observe(animationRef.current);
-
-        return () => observer.disconnect();
-    }, []);
-
-    return (
-        <>
-            <div className="about-align-style-0" data-bis-skin-checked="1">
-                <div className="about-section-style-0" data-bis-skin-checked="1">
-                    <div className="about-section-style-1" data-bis-skin-checked="1">
-                        <div ref={textRef} data-aos="fade-right" data-aos-delay="200" className="about-section-style-2" data-colname="" data-type="text" data-colsize="6" data-bis-skin-checked="1">
-                            <div className="about-section-style-3" data-bis-skin-checked="1">
-                                <div className="about-section-style-4" data-bis-skin-checked="1">
-                                    <div className="about-section-style-5" data-bis-skin-checked="1">
-                                        About Align
-                                    </div>
-                                    <h2 className="about-section-style-6">
-
-                                        <span className="about-section-style-7">Turnkey Technology Infrastructure Solutions</span>
-                                    </h2>
-                                    <div className="about-section-style-8" data-bis-skin-checked="1">
-                                        <p className="about-section-style-9">The rise of AI has had a massive impact on the IT industry - from increasing demands on data center infrastructure, to creating increasing risk from a cybersecurity standpoint, and even enabling more advanced workplace technology solutions. Align is uniquely equipped to address all of these facets of the AI revolution with our team of experts.</p>
-                                        <p className="about-section-style-10">From strategy to delivery, our winning combination of comprehensive IT solutions and experienced professionals unite to accelerate change from the data center to the workplace and into the cloud.&nbsp;</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="about-section-style-11" data-bis-skin-checked="1">
-                                <a href="https://www.align.com/about?hsLang=en" className="about-section-style-12">About Align</a>
-                            </div>
-                        </div>
-                        <div ref={animationRef} data-aos="fade" data-aos-delay="400" className="about-section-style-13" data-colname="" data-type="lottie" data-colsize="6" data-bis-skin-checked="1">
-                            <div className="about-section-style-14" data-bis-skin-checked="1">
-                                <Player
-                                    autoplay
-                                    loop
-                                    src="/animations/data.json" // path from public folder
-                                    style={{ width: '100%', height: 'auto' }}
-                                />
-                            </div>
-                        </div>
-                    </div>
-                </div>
+  return (
+    <section className="w-full bg-white py-12 md:py-20">
+      <div className="max-w-7xl mx-auto ">
+        <div className="grid grid-cols-1 md:grid-cols-2 px-6 md:px-10 items-center">
+          {/* Text Section */}
+          <div
+            data-aos="fade-right"
+            data-aos-delay="200"
+            className="space-y-6 px-4 md:px-8"
+          >
+            <div>
+              <span className="text-base font-medium tracking-wide uppercase">
+                About Align
+              </span>
+              <h2 className="mt-2  text-4xl  lg:text-5xl font-semibold text-[#008AD4] leading-[1.2]">
+                <span className="block">
+                  Turnkey Technology Infrastructure Solutions
+                </span>
+              </h2>
+              <div className="mt-4 space-y-4 text-lg leading-relaxed">
+                <p>
+                  The rise of AI has had a massive impact on the IT industry -
+                  from increasing demands on data center infrastructure, to
+                  creating increasing risk from a cybersecurity standpoint, and
+                  even enabling more advanced workplace technology solutions.
+                  Align is uniquely equipped to address all of these facets of
+                  the AI revolution with our team of experts.
+                </p>
+                <p>
+                  From strategy to delivery, our winning combination of
+                  comprehensive IT solutions and experienced professionals unite
+                  to accelerate change from the data center to the workplace and
+                  into the cloud.
+                </p>
+              </div>
             </div>
-        </>
-    );
+
+            {/* Gradient Button */}
+            <div>
+             <a
+  href="https://www.align.com/about?hsLang=en"
+  className="w-full md:w-full lg:w-auto text-center lg:text-left px-6 py-3 rounded text-black font-medium shadow-md transition hover:opacity-90 mx-auto lg:mx-0 inline-block"
+  style={{
+    background:
+      "linear-gradient(88.89deg, #008AD4 10.61%, #00D1FF 64.08%)",
+  }}
+>
+  About Align
+</a>
+
+
+
+            </div>
+          </div>
+
+          {/* Animation Section */}
+          <div
+            data-aos="fade-in"
+            data-aos-delay="200"
+            className="flex justify-center items-center "
+          >
+            <div className="w-full max-w-2xl min-h-[300px] sm:min-h-[400px] md:min-h-[500px]">
+              <Player
+                autoplay
+                loop
+                src="/animations/data.json"
+                style={{ width: "100%", height: "100%" }}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 }
