@@ -32,7 +32,7 @@ export default function Blog() {
             </div>
             <p
               data-aos="fade-left"
-              className="mt-4 transition-opacity transition-transform duration-800 ease"
+              className="mt-4 transition-opacity  duration-800 ease"
             >
               <a
                 href="https://www.align.com/blog?hsLang=en"
@@ -65,7 +65,7 @@ export default function Blog() {
               data-aos="fade"
               src="https://www.align.com/hs-fs/hubfs/social-suggested-images/www.align.comhubfsGenerated%20imagesAn%20interpretation%20of%20network%20infrastructure-1.jpeg?width=1792&height=1024&name=www.align.comhubfsGenerated%20imagesAn%20interpretation%20of%20network%20infrastructure-1.jpeg"
               alt="An interpretation of network infrastructure"
-              className="w-full max-w-full rounded-lg object-cover object-center transition-opacity transition-transform duration-800 ease"
+              className="w-full max-w-full rounded-lg object-cover object-center transition-opacity duration-800 ease"
             />
           </div>
         </div>
