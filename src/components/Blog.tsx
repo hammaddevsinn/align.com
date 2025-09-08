@@ -9,7 +9,7 @@ export default function Blog() {
           {/* Left text section */}
           <div className="w-full md:w-[calc(50%-15px)] md:order-2">
             <div
-              className="mb-9 transition-opacity transition-transform duration-800 ease"
+              className="mb-9 transition-opacity  duration-800 ease"
               data-aos="fade-left"
             >
               <div className="text-[#545454] mb-2.5 text-lg">January 15, 2025</div>
