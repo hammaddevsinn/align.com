@@ -6,17 +6,43 @@ import "aos/dist/aos.css";
 
 export default function Procedure() {
   useEffect(() => {
+    // Init AOS
     AOS.init({
       duration: 800,
-      once: false,
+      once: false, // allow repeat
       easing: "ease-in-out",
     });
+
+    // Refresh AOS
+    const refresh = () => AOS.refresh();
+    window.addEventListener("load", refresh);
+    window.addEventListener("resize", refresh);
+
+    // 👇 Force remove aos-animate when element leaves viewport
+    const io = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) {
+            entry.target.classList.remove("aos-animate");
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+
+    const elements = document.querySelectorAll<HTMLElement>("[data-aos]");
+    elements.forEach((el) => io.observe(el));
+
+    return () => {
+      window.removeEventListener("load", refresh);
+      window.removeEventListener("resize", refresh);
+      io.disconnect();
+    };
   }, []);
 
   return (
     <section className="relative w-full min-h-[400px] font-['IBM Plex Sans'] overflow-x-hidden">
       <div className="relative w-full px-6 md:px-6 lg:px-12 max-w-[1500px] mx-auto">
-
         {/* Heading */}
         <div className="w-full text-center">
           <svg
@@ -47,47 +73,41 @@ export default function Procedure() {
 
         {/* Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10 sm:gap-4 lg:gap-10 mt-8 w-full">
-  {cards.map((card, i) => (
-    <div
-      key={i}
-      data-aos="fade-right"
-      data-aos-delay={200 * (i + 1)}
-      className="bg-gradient-to-r from-[#1f3467] to-[#008ad4] rounded-lg p-0.75 sm:0.75 md:0.5 shadow-md 
-                 flex w-[90%] sm:w-[85%] mx-auto md:w-full"
-    >
-      <div
-        className="rounded-lg bg-white w-full flex flex-col justify-between 
-                   p-4 md:p-6 lg:p-8 
-                   min-h-[200px] md:min-h-[240px] lg:min-h-[295px]"
-      >
-        {/* Title */}
-        <h4 className="text-2xl md:text-lg lg:text-2xl mb-3 font-bold break-words whitespace-normal">
-          <a
-            href={card.href}
-            className="text-[#008ad4] underline underline-offset-2 decoration-dotted hover:text-[#00d1ff] transition"
-          >
-            {card.title}
-          </a>
-        </h4>
-
-        {/* Description */}
-        <p className="text-base md:text-base lg:text-lg text-black mb-4">
-          {card.desc}
-        </p>
-
-        {/* Link */}
-        <a
-          href={card.learn}
-          className="inline-flex items-center font-semibold text-lg md:text-base text-cyan-400 hover:text-cyan-500 transition-colors"
-        >
-          <span className="mr-2">Learn More</span>
-          <ArrowIcon />
-        </a>
-      </div>
-    </div>
-  ))}
-</div>
-
+          {cards.map((card, i) => (
+            <div
+              key={i}
+              data-aos="fade-right"
+              data-aos-delay={200 * (i + 1)}
+              className="bg-gradient-to-r from-[#1f3467] to-[#008ad4] rounded-lg p-0.75 shadow-md 
+                         flex w-[90%] sm:w-[85%] mx-auto md:w-full"
+            >
+              <div
+                className="rounded-lg bg-white w-full flex flex-col justify-between 
+                           p-4 md:p-6 lg:p-8 
+                           min-h-[200px] md:min-h-[240px] lg:min-h-[295px]"
+              >
+                <h4 className="text-2xl md:text-lg lg:text-2xl mb-3 font-bold break-words whitespace-normal">
+                  <a
+                    href={card.href}
+                    className="text-[#008ad4] underline underline-offset-2 decoration-dotted hover:text-[#00d1ff] transition"
+                  >
+                    {card.title}
+                  </a>
+                </h4>
+                <p className="text-base md:text-base lg:text-lg text-black mb-4">
+                  {card.desc}
+                </p>
+                <a
+                  href={card.learn}
+                  className="inline-flex items-center font-semibold text-lg md:text-base text-cyan-400 hover:text-cyan-500 transition-colors"
+                >
+                  <span className="mr-2">Learn More</span>
+                  <ArrowIcon />
+                </a>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );

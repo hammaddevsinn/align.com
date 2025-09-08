@@ -18,13 +18,30 @@ const Player = dynamic(
 
 export default function AboutAlign() {
   useEffect(() => {
-    AOS.init({
-      duration: 800,
-      easing: "ease-in-out",
-      once: false,
-    });
-  }, []);
-
+      AOS.init({
+        duration: 800,
+        once: false, // allow repeat animations
+        easing: "ease-in-out",
+      })
+  
+      // 🔥 Force refresh after mount
+      const timer = setTimeout(() => {
+        AOS.refresh()
+      }, 200)
+  
+      // 🔥 Refresh also on scroll + resize
+      const handleScroll = () => AOS.refresh()
+      const handleResize = () => AOS.refresh()
+  
+      window.addEventListener("scroll", handleScroll)
+      window.addEventListener("resize", handleResize)
+  
+      return () => {
+        clearTimeout(timer)
+        window.removeEventListener("scroll", handleScroll)
+        window.removeEventListener("resize", handleResize)
+      }
+    }, [])
   return (
     <section className="w-full bg-white py-12 md:py-20">
       <div className="max-w-7xl mx-auto ">

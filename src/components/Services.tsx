@@ -7,12 +7,29 @@ import "aos/dist/aos.css"
 export default function Services() {
   useEffect(() => {
     AOS.init({
-      duration: 800, 
+      duration: 800,
+      once: false, // allow repeat animations
       easing: "ease-in-out",
-      once: false,
     })
-  }, [])
 
+    // 🔥 Force refresh after mount
+    const timer = setTimeout(() => {
+      AOS.refresh()
+    }, 200)
+
+    // 🔥 Refresh also on scroll + resize
+    const handleScroll = () => AOS.refresh()
+    const handleResize = () => AOS.refresh()
+
+    window.addEventListener("scroll", handleScroll)
+    window.addEventListener("resize", handleResize)
+
+    return () => {
+      clearTimeout(timer)
+      window.removeEventListener("scroll", handleScroll)
+      window.removeEventListener("resize", handleResize)
+    }
+  }, [])
   const cards = [
     {
       title: "Data Center Technology Infrastructure Solutions",
