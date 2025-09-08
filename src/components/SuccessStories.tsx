@@ -57,7 +57,7 @@ export default function SuccessStories() {
         </div>
 
         {/* Cards Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 px-auto lg:px-20 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 px-auto xl:px-20 gap-6">
           {cards.map((card, index) => (
             <div
               key={index}
