@@ -2894,10 +2894,10 @@
 
     /* Courtesy links on top */
     .style-13 {
-        display: flex;
-        order: 1; /* Ensure it comes first */
+         display: flex;
+        order: 1; 
         width: 100%;
-        justify-content: flex-start;
+        justify-content: flex-start; 
     }
 
     /* Hide the | separator since US Services is below logo */
@@ -2911,8 +2911,9 @@
 
     /* Keep courtesy links visible, maybe smaller */
     .style-13 {
-        display: flex;
-        font-size: 11px;
+        /* display: flex;
+        font-size: 11px; */
+        display: none;
     }
 
     /* Stack logo and hamburger properly */
