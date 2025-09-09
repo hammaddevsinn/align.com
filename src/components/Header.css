@@ -2875,35 +2875,49 @@
         font-size: 12.6px;
     }
 
-    /* Reposition US Services below logo again */
+    /* Logo container for vertical layout */
+    .style-3 {
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        align-items: flex-start; /* Align to left */
+        gap: 8px; /* small spacing between elements */
+    }
+
+    /* Reposition US Services (if part of courtesy links) */
     .style-9 {
-        left: 0 !important;
-        transform: none;
+        order: 2; /* After courtesy links */
         position: relative;
         margin: 0;
         padding: 0 !important;
         text-align: left !important;
     }
 
+    /* Courtesy links on top */
+    .style-13 {
+        display: flex;
+        order: 1; /* Ensure it comes first */
+        width: 100%;
+        justify-content: flex-start;
+    }
+
     /* Hide the | separator since US Services is below logo */
     .style-10 {
         display: none;
-    }
-
-    /* Adjust logo container for vertical layout */
-    .style-3 {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 0px;
     }
 }
 
 /* Extra Small Mobile Layout: Below 650px */
 @media (max-width: 649px) {
 
-    /* Hide courtesy links completely */
+    /* Keep courtesy links visible, maybe smaller */
     .style-13 {
-        display: none;
+        display: flex;
+        font-size: 11px;
+    }
+
+    /* Stack logo and hamburger properly */
+    .style-3 {
+        gap: 6px;
     }
 }
 

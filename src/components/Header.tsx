@@ -141,7 +141,7 @@ export default function Header() {
 
                                 <span className="style-5">
                                     
-                                        <img src="./headerIcon/Logo_White.svg" alt="Logo White" loading="lazy"
+                                        <img src="https://www.align.com/hubfs/Logo%20White.svg" alt="Logo White" loading="lazy"
                                             width="136" height="45" className="style-6" />
                                         <img src="https://www.align.com/hubfs/align-fullcolor-logo.svg" alt="align-fullcolor-logo"
                                             loading="lazy" width="136" height="46" className="style-8" />
@@ -1340,7 +1340,7 @@ export default function Header() {
 
 
 
-                                    <img src="./headerIcon/Logo_White.svg" alt="Logo White" loading="lazy" width="136" height="45" className="scroll-header-style-6" /> </span> <span className="scroll-header-style-7">
+                                    <img src="https://www.align.com/hubfs/Logo%20White.svg" alt="Logo White" loading="lazy" width="136" height="45" className="scroll-header-style-6" /> </span> <span className="scroll-header-style-7">
 
 
 
