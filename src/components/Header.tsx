@@ -12,7 +12,8 @@ export default function Header() {
     const [isScrolled, setIsScrolled] = useState(false);
     const [isMobile, setIsMobile] = useState(false);
     const mobileMenuRef = useRef<HTMLDivElement>(null);
-
+    
+    
     // Handle clicks outside the mobile menu
     useEffect(() => {
         const handleClickOutside = (event: MouseEvent) => {
@@ -129,7 +130,7 @@ export default function Header() {
 
     return (
         <>
-            <header className={`style-0 ${isScrolled ? 'main-header-hidden' : 'main-header-visible'}`}>
+            <header className={` ${isScrolled ? 'main-header-hidden style-0' : 'main-header-visible style-before-scroll'}`}>
 
                 <div className="style-1">
                     <div className="style-2">
@@ -139,14 +140,12 @@ export default function Header() {
                             <a href="https://www.align.com" className="style-4">
 
                                 <span className="style-5">
-                                    {!isMobile ? (
-                                        <img src="https://www.align.com/hubfs/Logo%20White.svg" alt="Logo White" loading="lazy"
+                                    
+                                        <img src="./headerIcon/Logo_White.svg" alt="Logo White" loading="lazy"
                                             width="136" height="45" className="style-6" />
-                                    ) : (
                                         <img src="https://www.align.com/hubfs/align-fullcolor-logo.svg" alt="align-fullcolor-logo"
                                             loading="lazy" width="136" height="46" className="style-8" />
-                                    )}
-                                </span> </a> <span
+                                                                    </span> </a> <span
                                             className="style-9">
                                 <span className="style-10">|&nbsp;&nbsp;</span>US Services
                             </span>
@@ -178,7 +177,9 @@ export default function Header() {
 
 
                                                             <li className="style-24">
-                                                                <a className="style-25" href="https://www.align.com/">
+                                                                <a 
+                                                                style={{color:"black",font:"16px",display:"block"}}
+                                                                className="style-25" href="https://www.align.com/">
                                                                     US Services
                                                                 </a>
                                                             </li>
@@ -1339,7 +1340,7 @@ export default function Header() {
 
 
 
-                                    <img src="https://www.align.com/hubfs/Logo%20White.svg" alt="Logo White" loading="lazy" width="136" height="45" className="scroll-header-style-6" /> </span> <span className="scroll-header-style-7">
+                                    <img src="./headerIcon/Logo_White.svg" alt="Logo White" loading="lazy" width="136" height="45" className="scroll-header-style-6" /> </span> <span className="scroll-header-style-7">
 
 
 
