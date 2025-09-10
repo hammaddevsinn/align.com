@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    domains: ['www.align.com', 'align.com'], // yahan apne images ki domain add karo
+  },
 };
 
 export default nextConfig;
