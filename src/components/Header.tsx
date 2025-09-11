@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from 'react';
 import './Header.css';
 import './Search.css';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Header() {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -138,7 +139,9 @@ export default function Header() {
 
                         <div className="style-3">
 
-                            <a href="https://www.align.com" className="style-4">
+                            <Link href="/" onClick={()=>{
+                                document.querySelector("#hero")?.scrollIntoView({behavior:"smooth"})
+                            }} className="style-4">
 
                                 <span className="style-5">
                                     
@@ -157,7 +160,7 @@ export default function Header() {
                                         width={100}
                                         priority
                                         alt='Logo'
-                                        className='style-8'/></span> </a>
+                                        className='style-8'/></span> </Link>
                                 <h1 className='font-bold text-xl text-white'>INFINETWORX</h1>
                         </div>
                         <nav className="style-11" aria-label=" menu">
@@ -202,8 +205,10 @@ export default function Header() {
                                                     </div>
                                                 </div>
                                             </div>
-                                        </span> <a className="style-28" href="https://www.align.com/blog?hsLang=en">Our Blog</a> <a
-                                            className="style-29" href="https://www.align.com/contact?hsLang=en">Contact Us</a> <a
+                                        </span> <a className="style-28" href="https://www.align.com/blog?hsLang=en">Our Blog</a> <Link
+                                            className="style-29" href="#contact" onClick={()=>{
+                                document.querySelector("#contact")?.scrollIntoView({behavior:"smooth"})
+                            }}>Contact Us</Link> <a
                                                 className="style-30"
                                                 href="https://www.align.com/resource-library?hsLang=en">Resources</a> <a
                                                     className="style-31" href="https://www.align.com/support?hsLang=en">
@@ -657,7 +662,9 @@ export default function Header() {
                                     </div>
                                 </li>
                                 <li className="style-258">
-                                    <a className="style-259" href="https://www.align.com/contact?hsLang=en">Contact us</a>
+                                    <a className="style-259" href="#contact" onClick={()=>{
+                                document.querySelector("#contact")?.scrollIntoView({behavior:"smooth"})
+                            }}>Contact us</a>
                                 </li>
                             </ul>
                         </nav>
@@ -1341,15 +1348,12 @@ export default function Header() {
 
                         <div className="flex flex-row items-center justify-center gap-2">
 
-                            <a href="https://www.align.com" className="scroll-header-style-4">
+                            <Link href="/" onClick={()=>{
+                                document.querySelector("#hero")?.scrollIntoView({behavior:"smooth"})
+                            }} className="scroll-header-style-4">
 
                                 {/* <span className="flex flex-row">
  */}
-
-
-
-
-
                                     {/* <img src="https://www.align.com/hubfs/Logo%20White.svg" alt="Logo White" loading="lazy" width="136" height="45" className="" /> */}
                                     {/* <Image 
                                     src={'/headerIcon/logo.png'}
@@ -1367,7 +1371,7 @@ export default function Header() {
                                     width={100}
                                     height={100}
                                     className="scroll-header-style-8"
-                                    /> </span> </a> 
+                                    /> </span> </Link> 
                                 <h1 className='font-bold text-xl text-black'>INFINETWORX</h1>
                         </div>
                         <nav className="scroll-header-style-11" aria-label=" menu">
@@ -1406,7 +1410,9 @@ export default function Header() {
                                                     </div>
                                                 </div>
                                             </div>
-                                        </span> <a className="scroll-header-style-28" href="https://www.align.com/blog?hsLang=en">Our Blog</a> <a className="scroll-header-style-29" href="https://www.align.com/contact?hsLang=en">Contact Us</a> <a className="scroll-header-style-30" href="https://www.align.com/resource-library?hsLang=en">Resources</a> <a className="scroll-header-style-31" href="https://www.align.com/support?hsLang=en">
+                                        </span> <a className="scroll-header-style-28" href="https://www.align.com/blog?hsLang=en">Our Blog</a> <Link className="scroll-header-style-29" href="#contact" onClick={()=>{
+                                document.querySelector("#contact")?.scrollIntoView({behavior:"smooth"})
+                            }}>Contact Us</Link> <a className="scroll-header-style-30" href="https://www.align.com/resource-library?hsLang=en">Resources</a> <a className="scroll-header-style-31" href="https://www.align.com/support?hsLang=en">
                                             <svg className="scroll-header-style-32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.446 19.278">
                                                 <path d="M8.337 0A4.168 4.168 0 1012.5 4.168 4.18 4.18 0 008.337 0zm8.857.521a3.387 3.387 0 103.387 3.387A3.4 3.4 0 0017.194.521zM8.337 1.563a2.605 2.605 0 11-2.605 2.605 2.593 2.593 0 012.605-2.605zm8.857.521a1.824 1.824 0 11-1.824 1.824 1.812 1.812 0 011.824-1.824zm0 5.731A7.4 7.4 0 0011.878 9.6a12.8 12.8 0 00-3.541-.48A11.437 11.437 0 002.6 10.526a4.609 4.609 0 00-2.6 3.8V18.5a.812.812 0 00.782.782h15.11a.812.812 0 00.782-.782v-2.609h5.992a.812.812 0 00.782-.782v-3.386A3.484 3.484 0 0021.452 8.8a8.752 8.752 0 00-4.258-.985zm0 1.563a7.329 7.329 0 013.484.79c.837.471 1.2 1.011 1.2 1.555v2.605h-5.21a4.609 4.609 0 00-2.6-3.8c-.159-.094-.328-.183-.5-.269a7.258 7.258 0 013.615-.879zm-8.857 1.3a10.02 10.02 0 014.95 1.189 3.081 3.081 0 011.824 2.459v3.387H1.563v-3.385a3.081 3.081 0 011.824-2.458 10.019 10.019 0 014.95-1.189z" className="scroll-header-style-33"></path>
                                             </svg>
@@ -1636,7 +1642,9 @@ export default function Header() {
                                     </div>
                                 </li>
                                 <li className="scroll-header-style-258">
-                                    <a className="scroll-header-style-259" href="https://www.align.com/contact?hsLang=en">Contact us</a>
+                                    <Link className="scroll-header-style-259" href="#contact" onClick={()=>{
+                                document.querySelector("#contact")?.scrollIntoView({behavior:"smooth"})
+                            }}>Contact us</Link>
                                 </li>
                             </ul>
                         </nav> 

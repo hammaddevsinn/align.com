@@ -16,7 +16,9 @@ import Footer from "../components/Footer";
 export default function Home() {
   return (
     <>
+    <section id="hero">
       <Hero />
+      </section>
       <Procedure />
       <Services />
       <AboutAlign />
@@ -28,7 +30,9 @@ export default function Home() {
       <Stats />
       <SuccessStories />
       <Communication />
+      <section id="contact">
       <Contact />
+      </section>
       <Footer />
     </>
   );
