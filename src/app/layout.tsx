@@ -8,6 +8,7 @@ const ibmPlexSans = IBM_Plex_Sans({
 export const metadata: Metadata = {
   title: "InfinetWorx",
   description: "Infinetworx delivers innovative IT and networking solutions, empowering businesses with secure, scalable, and efficient technology to drive growth and digital transformation",
+  
 };
 
 export default function RootLayout({
