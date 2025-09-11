@@ -68,6 +68,7 @@ export default function Expertise() {
               Seasoned professionals for <br className="hidden md:block" /> every project.
             </h2>
             <ul className="list-disc list-inside text-left text-lg space-y-3 text-gray-100">
+              
               <li>Solving your internal IT challenges has never been easier.</li>
               <li>
                 Our professionals are certified on everything that we implement—from the physical

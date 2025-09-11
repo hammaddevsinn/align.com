@@ -13,45 +13,60 @@ export default function Testimony() {
         {
             id: 1,
             image: "https://www.align.com/hubfs/_Client%20and%20Partner%20Logos/Testimonials/1516356706458-1.jfif",
-            quote: "Align has been designing and overseeing all of our data center capacity increases for the past 7 years. Our capacity increase of over 100Mw has gone seamlessly due to Align's knowledge of power and cable plants and their detailed construction documents that leave no margin of error.",
-            name: "Dwayne Wilson",
-            title: "Vice President, Data Center Operations, Salesforce"
+            quote: "Great technical expertise and strong communication. Our SaaS platform runs smoothly thanks to their backend architecture.",
+            name: "Infobridge Technologies",
+            title: "Seoul, South Korea"
         },
         {
             id: 2,
             image: "https://www.align.com/hs-fs/hubfs/Verizon%20Logo.jpg?width=800&height=1200&name=Verizon%20Logo.jpg",
-            quote: "When we sold one of our data center facilities, we only had four months to migrate over 1,200 devices to our new location before our lease expired. The Align team expedited the migration and decommissioning processes to get us out of our old facility right on time with extremely minimal ...",
-            name: "Verizon",
-            title: "Data Center Migration"
+            quote:"We were looking for a dependable dev partner for our MVP, and Arham's team delivered. They’ve earned our trust for future work.",            
+            name:"BrightLayer Innovations",
+            title: "Dubai, UAE"
         },
         {
             id: 3,
             image: "https://www.align.com/hs-fs/hubfs/Circle%20Headshots%20(6).png?width=500&height=500&name=Circle%20Headshots%20(6).png",
-            quote: "After 15 years of working with Align, they have proven to be the premier technology partner of Ted Moudis Associates—they are engrained in our organization and understand our larger technology needs. Align is on the forefront of new technology innovations and they understand how to apply ...",
-            name: "Dean Ulloa",
-            title: "Principal of Technology<br />Ted Moudis Associates"
+            quote:"Working with Arham Solutions was a game-changer for our app launch. Their team demonstrated outstanding technical skills and project ownership throughout.",
+            name: "TechNova Inc.",
+            title: "San Fransico, USA"
         },
         {
             id: 4,
             image: "https://www.align.com/hs-fs/hubfs/_Web%20Assets/Testimonial%20Assets/Karl%20Cole-Frieman.png?width=300&height=300&name=Karl%20Cole-Frieman.png",
-            quote: "At Cole-Frieman & Mallon LLP, we are proud of our reputation for innovation and collaboration. Our work is cutting edge, and our clients are discerning and expect high-quality work from our legal professionals. As our client base (like the rest of the world) was forced to make the recent ...",
-            name: "Karl Cole-Frieman",
-            title: "Co-Managing Partner, Cole-Frieman & Mallon"
+            quote:"The collaboration was seamless. Timely updates, clean code, and scalable backend design. Highly recommended for startups looking for rapid development.",
+            name: "VelocitySoft",
+            title: "Berlin, Germany"
         },
         {
             id: 5,
             image: "https://www.align.com/hs-fs/hubfs/_Client%20and%20Partner%20Logos/Testimonials/A%26M_Kelly%20Gargiulio.png?width=600&height=600&name=A%26M_Kelly%20Gargiulio.png",
-            quote: "Having worked with Align at my previous company, I knew that I needed them as part of my team. They are more than a vendor, they are partners in helping us to get to a new vision of fitting out and delivering space. I could not perform my job successfully, without them at the table.",
-            name: "Kelly L. Gargiulio",
-            title: "Director of Global Corporate Real Estate<br />Alvarez & Marsal Holdings, LLC"
+            quote:"We've worked with multiple dev teams, but this was by far our best outsourcing experience. Quality-driven and incredibly responsive.",
+            name: "CloudCore Ltd.",
+            title: "London, UK"
         },
         {
             id: 6,
             image: "https://www.align.com/hs-fs/hubfs/_Web%20Assets/Testimonial%20Assets/calcagno_vincent-250x250.png?width=250&height=250&name=calcagno_vincent-250x250.png",
-            quote: "We continue to evolve our offerings to support the ever-expanding and changing business requirements for fund managers who are scaling their business and capital levels. Align has been a critical partner for us in terms of technology and cybersecurity—helping to improve our platform while ...",
-            name: "Vincent Calcagno",
-            title: "Founder & CEO, Agile Fund Solutions"
-        }
+            quote:"From initial consultation to final delivery, the team was extremely professional. They exceeded our expectations in both design and performance.",
+            name: "NeoGrid Solutions",
+            title: "Toronto, Canada"
+        },
+        {
+            id: 7,
+            image: "https://www.align.com/hs-fs/hubfs/_Web%20Assets/Testimonial%20Assets/calcagno_vincent-250x250.png?width=250&height=250&name=calcagno_vincent-250x250.png",
+            quote:"They delivered a flawless enterprise dashboard with complex API integrations, all within our tight timeline. We're impressed with the results.",
+            name: "Quantix Analytics",
+            title: "Amsterdam, Netherlands"
+        },
+        {
+            id: 8,
+            image: "https://www.align.com/hs-fs/hubfs/_Web%20Assets/Testimonial%20Assets/calcagno_vincent-250x250.png?width=250&height=250&name=calcagno_vincent-250x250.png",
+            quote:"Reliable, talented, and easy to work with. Their attention to detail and UX considerations made a real difference in our product.",
+            name: "PixelWorks",
+            title: "Melbourne, Australia"
+        },
+        
     ]; return (
     <section className="w-full px-6 lg:px-18 py-12 bg-gray-50 relative">
       {/* Heading */}
