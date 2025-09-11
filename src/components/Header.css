@@ -3123,9 +3123,7 @@
 
 /* Nav links font size adjustment for scroll header: Below 1260px */
 @media (max-width< 1259px) {
-    .scroll-header-style-0{
-        background-color: blue !important;
-    }
+    
     .scroll-header-style-38 {
         font-size: 13.5px;
     }
@@ -3643,7 +3641,7 @@
     list-style: outside none none;
     margin-bottom: 0px;
     list-style-type: none;
-    padding-left: 9px;
+    padding-left: 0px;
     box-sizing: border-box;
 }
 
@@ -4135,7 +4133,7 @@
     list-style: outside none none;
     margin-bottom: 0px;
     list-style-type: none;
-    padding-left: 9px;
+    padding-left: 0px;
     box-sizing: border-box;
 }
 
@@ -4525,7 +4523,7 @@
     list-style: outside none none;
     margin-bottom: 0px;
     list-style-type: none;
-    padding-left: 9px;
+    padding-left: 0px;
     box-sizing: border-box;
 }
 
@@ -5401,7 +5399,7 @@
     list-style: outside none none;
     margin-bottom: 0px;
     list-style-type: none;
-    padding-left: 9px;
+    padding-left: 0px;
     box-sizing: border-box;
 }
 
@@ -5739,7 +5737,7 @@
     list-style: outside none none;
     margin-bottom: 0px;
     list-style-type: none;
-    padding-left: 9px;
+    padding-left:0px;
     box-sizing: border-box;
 }
 
