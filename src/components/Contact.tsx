@@ -17,7 +17,7 @@ export default function Contact() {
       </video>
 
       {/* Arrow */}
-      <div className="relative z-10 max-w-[1200px] w-full mx-auto px-9 pb-9 fill-white">
+      <div className="relative z-auto max-w-[1200px] w-full mx-auto px-9 pb-9 fill-white">
         <svg
           width="24"
           height="70"
@@ -33,7 +33,7 @@ export default function Contact() {
       </div>
 
       {/* Form & Locations */}
-      <div className="relative z-10 max-w-[1200px] w-full mx-auto px-9">
+      <div className="relative z-auto max-w-[1200px] w-full mx-auto px-9">
         <div className="flex flex-row gap-[3.3%] flex-nowrap max-md:flex-col max-md:gap-8">
           {/* Left - Locations */}
           <div

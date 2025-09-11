@@ -46,7 +46,7 @@ export default function Communication() {
       ></div>
 
       {/* Overlay Content */}
-      <div className="relative z-10">
+      <div className="relative z-auto">
         {/* Arrow */}
         <div className="mx-auto max-w-[1200px] w-full px-9 pb-9 fill-white">
           <svg

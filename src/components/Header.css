@@ -2682,7 +2682,7 @@
     opacity: 1;
     box-shadow: 0 10px 30px rgba(20, 20, 20, 0.3);
     transition: opacity 0.3s ease, height 0.3s ease;
-    z-index: 1000;
+    z-index: 10000;
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
 }
@@ -2936,7 +2936,7 @@
     background: linear-gradient(to right, rgba(51, 162, 221, 0.8), rgba(73, 100, 143, 0.8));
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
-    z-index: 1000;
+    z-index: 10000;
     display: flex;
     justify-content: flex-start;
 }
@@ -2955,7 +2955,7 @@
     animation: slideInLeft 0.3s ease-out forwards;
     display: flex;
     flex-direction: column;
-    z-index: 1000;
+    z-index: 10000;
 }
 
 /* Force animation for all submenus */
@@ -3069,7 +3069,7 @@
     width: 100%;
     left: 0px;
     top: 0px;
-    z-index: 1000;
+    z-index: 10000;
     padding: 8px 36px;
     box-sizing: border-box;
     background-color: #fff;

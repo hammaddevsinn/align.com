@@ -60,7 +60,7 @@ export default function Expertise() {
       </div>
 
       {/* Content */}
-      <div className="px-5 xl:px-52 relative flex flex-col md:flex-row items-start py-10 xl:py-20 text-white z-20">
+      <div className="px-5 xl:px-52 relative flex flex-col md:flex-row items-start py-10 xl:py-20 text-white z-auto">
         <div className="flex-1" data-aos="fade-right" data-aos-delay="200">
           <div className="max-w-sm xl:max-w-2xl space-y-2 xl:space-y-4">
             <p className="text-lg uppercase">Expertise</p>

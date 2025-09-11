@@ -46,7 +46,7 @@ export default function Results() {
       ></div>
 
       {/* Content */}
-      <div className="relative z-10">
+      <div className="relative z-auto">
         {/* Arrow */}
         <div className="relative mx-auto max-w-[1200px] px-9 pb-9 fill-white">
           <svg
