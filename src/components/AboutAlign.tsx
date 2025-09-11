@@ -58,7 +58,7 @@ export default function AboutAlign() {
               </span>
               <h2 className="mt-2  text-4xl  lg:text-5xl font-semibold text-orange-400 leading-[1.2]">
                 <span className="block">
-                  Turnkey Technology Infrastructure Solutions
+                  Powering Digital Trasformation
                 </span>
               </h2>
               <div className="mt-4 space-y-4 text-lg leading-relaxed">
