@@ -3,6 +3,7 @@
 import { useEffect } from "react"
 import AOS from "aos"
 import "aos/dist/aos.css"
+import Image from "next/image"
 
 export default function Services() {
   useEffect(() => {
@@ -34,38 +35,38 @@ export default function Services() {
     {
       title: "Data and AI",
       desc: "We design intelligent ecosystems that transform raw data into actionable intelligence using scalable cloud-native platforms and cutting-edge AI.",
-      img: "https://www.align.com/hubfs/Icon2.svg",
+      img: "/icons/icon3.svg",
       link: "https://infinet-worx-latest.vercel.app/services/data-ai-services",
     },
     {
       title: "SAP Services and Implementation",
       desc: "We deliver SAP consulting, implementation, and integration, helping businesses optimize operations with SAP S/4HANA, SAP BTP, and related modules.",
-      img: "https://www.align.com/hubfs/Icon.svg",
+      img: "/icons/icon2.svg",
       link: "https://infinet-worx-latest.vercel.app/services/sap-services-implementation",
     },
     {
       title: "Professional Services",
       desc: "Our Professional Services team provides strategic guidance, technical delivery, and on-ground execution to help enterprises meet business goals with precision and speed.",
-      img: "https://www.align.com/hubfs/Group%204.svg",
+      img: "/icons/icon2.svg",
       link: "https://www.align.com/managed-services?hsLang=en",
     },
     {
       title:"Intelligent Automation & Integration",
       desc:"We bridge system silos and streamline operations with smart integration patterns and AI-powered process automation frameworks.",
-      img:"https://www.align.com/hubfs/Group%204.svg",
+      img:"/icons/icon1.svg",
       link:"/"
     },
     {
       title:"Governance , Security & Compliance",
       desc:"We help organizations establish a foundation of trust, compliance, and control across the entire data and application landscape.",
-      img:"https://www.align.com/hubfs/Group%204.svg",
+      img:"/icons/icon1.svg",
       link:"/"
     },
     
     {
       title:"Industries We Serve",
       desc:"At Infinetworx, our mission is to be your digital transformation partner of choice, delivering results with precision, agility, and innovation.",
-      img:"https://www.align.com/hubfs/Group%204.svg",
+      img:"/icons/icon1.svg",
       link:"/"
     }
   ]
@@ -98,9 +99,11 @@ export default function Services() {
               
               {/* Top content */}
               <div className="transition-all duration-300 group-hover:opacity-0">
-                <img
+                <Image
                   src={card.img}
                   alt={card.title}
+                  width={50}
+                  height={50}
                   className="w-12 h-12 sm:w-16 sm:h-16 mb-4"
                 />
                 <h4 className="text-lg sm:text-xl lg:text-2xl font-bold mb-4 text-gray-900">
