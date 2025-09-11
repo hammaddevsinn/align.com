@@ -39,7 +39,7 @@ export default function Services() {
     },
     {
       title: "SAP Services and Implementation",
-      desc: "We offer comprehensive SAP consulting, implementation, and integration services, enabling businesses to fully leverage SAP S/4HANA, SAP BTP, and other modules for operational excellence.",
+      desc: "We deliver SAP consulting, implementation, and integration, helping businesses optimize operations with SAP S/4HANA, SAP BTP, and related modules.",
       img: "https://www.align.com/hubfs/Icon.svg",
       link: "https://infinet-worx-latest.vercel.app/services/sap-services-implementation",
     },
@@ -108,7 +108,7 @@ export default function Services() {
                 </h4>
                 <a
                   href={card.link}
-                  className="font-semibold text-sm sm:text-base lg:text-lg inline-flex items-center mt-6 relative z-10"
+                  className="font-semibold text-sm sm:text-base lg:text-lg inline-flex items-center mt-4 relative z-10"
                 >
                   Learn more
                   <svg
@@ -148,7 +148,7 @@ export default function Services() {
 
                 <a
                   href={card.link}
-                  className="text-sm sm:text-base lg:text-lg font-semibold inline-flex items-center text-white mt-6 relative z-10 
+                  className="text-sm sm:text-base lg:text-lg font-semibold inline-flex items-center text-white  relative z-10 
                     transform translate-y-6 opacity-0 
                     group-hover:translate-y-0 group-hover:opacity-100 
                     transition-all duration-500 ease-in-out delay-200"
