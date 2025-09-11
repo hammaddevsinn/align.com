@@ -73,7 +73,7 @@ export default function Contact() {
             {/* Heading */}
             <div className="mb-12">
               <h2 className="text-[44px] font-bold leading-[53px]">
-                <span className="text-[#008ad4] font-normal block">
+                <span className="text-orange-500 font-normal block">
                   <strong className="font-bold">Connect With Us</strong>
                 </span>
               </h2>
@@ -87,7 +87,7 @@ export default function Contact() {
                   <span className="text-lg">First Name</span>
                   <span className="text-gray-800 ml-1">*</span>
                 </label>
-                <div className="bg-gradient-to-r from-[#008ad4] to-[#00d1ff] p-0.5 rounded-md h-[52px]">
+                <div className="bg-gradient-to-r from-[#FFA500] to-[#FF7F50] p-0.5 rounded-md h-[52px]">
                   <input
                     type="text"
                     name="firstname"
@@ -104,7 +104,7 @@ export default function Contact() {
                   <span className="text-lg">Last Name</span>
                   <span className="text-gray-800 ml-1">*</span>
                 </label>
-                <div className="bg-gradient-to-r from-[#008ad4] to-[#00d1ff] p-0.5 rounded-md h-[52px]">
+                <div className="bg-gradient-to-r from-[#FFA500] to-[#FF7F50] p-0.5 rounded-md h-[52px]">
                   <input
                     type="text"
                     name="lastname"
@@ -121,7 +121,7 @@ export default function Contact() {
                   <span className="text-lg">Email</span>
                   <span className="text-gray-800 ml-1">*</span>
                 </label>
-                <div className="bg-gradient-to-r from-[#008ad4] to-[#00d1ff] p-0.5 rounded-md h-[52px]">
+                <div className="bg-gradient-to-r from-[#FFA500] to-[#FF7F50] p-0.5 rounded-md h-[52px]">
                   <input
                     type="email"
                     name="email"
@@ -133,7 +133,7 @@ export default function Contact() {
               </div>
 
               {/* Service */}
-             <div className="relative bg-gradient-to-r from-[#008ad4] to-[#00d1ff] p-0.5 rounded-md h-[52px]">
+             <div className="relative bg-gradient-to-r from-[#FFA500] to-[#FF7F50] p-0.5 rounded-md h-[52px]">
   <select
     name="service"
     required
@@ -162,7 +162,7 @@ export default function Contact() {
                     requests:
                   </span>
                 </label>
-                <div className="bg-gradient-to-r from-[#008ad4] to-[#00d1ff] p-0.5 rounded-md h-[120px]">
+                <div className="bg-gradient-to-r from-[#FFA500] to-[#FF7F50] p-0.5 rounded-md h-[120px]">
                   <textarea
                     name="message"
                     className="w-full h-full px-5 py-3 rounded-md text-base bg-white text-black resize-none focus:outline-none"
@@ -174,7 +174,7 @@ export default function Contact() {
               <div className="pt-6">
                 <button
                   type="submit"
-                  className="bg-gradient-to-r w-full md:w-auto from-[#008ad4] to-[#00d1ff]  text-black font-bold text-lg py-4 px-6 rounded-md hover:shadow-lg transition"
+                  className=" w-full md:w-auto bg-gradient-to-r from-[#FFA500] to-[#FF7F50]  text-black font-bold text-lg py-4 px-6 rounded-md hover:shadow-lg transition"
                 >
                   Contact Us
                 </button>

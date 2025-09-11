@@ -217,7 +217,7 @@
     visibility: hidden;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     padding: 2px;
-    background: linear-gradient(44.39deg, #008AD4 43.93%, #00D1FF 89.9%);
+    background: linear-gradient(44.39deg, #FFA500 43.93%, #FF7F50 89.9%);
     border-radius: 5px;
     box-shadow: none;
 }
@@ -2615,7 +2615,7 @@
     display: flex;
     flex-flow: row wrap;
     gap: 2rem;
-    background: linear-gradient(180deg, #76CEFF 0%, #768AFF 50.52%, #66FFE5 99.48%);
+    background: linear-gradient(180deg, #FFA500 0%, #FF7F50 50.52%, #FFD580 99.48%);
     padding: 0;
     border-radius: .5rem;
     opacity: 0;
@@ -3152,7 +3152,7 @@
 
     /* Main header mobile styling - white background, black text */
     .style-0 {
-        background: linear-gradient(90deg, #1F3467 0%, #008AD4 70%) !important;
+        background: linear-gradient(90deg, #FFA500 0%, #FF7F50 70%) !important;
         box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1) !important;
     }
     /* Logo switching handled by JavaScript logic */
@@ -3286,6 +3286,7 @@
 .scroll-header-style-5 {
     display: none;
     box-sizing: border-box;
+
 }
 
 .scroll-header-style-6 {
@@ -5743,7 +5744,7 @@
 }
 
 .scroll-header-style-259 {
-    background: rgba(0, 0, 0, 0) linear-gradient(88.89deg, rgb(0, 138, 212) 10.61%, rgb(0, 209, 255) 64.08%) repeat scroll 0% 0% / auto padding-box border-box;
+ background: rgba(0, 0, 0, 0) linear-gradient(88.89deg, #FFA500 10.61%, #FF7F50 64.08%) repeat scroll 0% 0% / auto padding-box border-box;
     color: rgb(20, 20, 20);
     border: 2px solid rgb(255, 255, 255);
     box-shadow: none;

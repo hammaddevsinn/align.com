@@ -32,23 +32,42 @@ export default function Services() {
   }, [])
   const cards = [
     {
-      title: "Data Center Technology Infrastructure Solutions",
-      desc: "We assess, design, deploy, and optimize data centers built for today's AI and HPC demands",
+      title: "Data and AI",
+      desc: "We design intelligent ecosystems that transform raw data into actionable intelligence using scalable cloud-native platforms and cutting-edge AI.",
       img: "https://www.align.com/hubfs/Icon2.svg",
-      link: "https://www.align.com/solutions/data-center-solutions?hsLang=en",
+      link: "https://infinet-worx-latest.vercel.app/services/data-ai-services",
     },
     {
-      title: "Workplace Technology & AV Solutions",
-      desc: "Right-size your workplace with technology built for the connected enterprise",
+      title: "SAP Services and Implementation",
+      desc: "We offer comprehensive SAP consulting, implementation, and integration services, enabling businesses to fully leverage SAP S/4HANA, SAP BTP, and other modules for operational excellence.",
       img: "https://www.align.com/hubfs/Icon.svg",
-      link: "https://www.align.com/professional-services/workplace-technology?hsLang=en",
+      link: "https://infinet-worx-latest.vercel.app/services/sap-services-implementation",
     },
     {
-      title: "Managed IT Services & Cybersecurity",
-      desc: "Align Managed Services delivers the highest level of stability and transparency across your IT operations",
+      title: "Professional Services",
+      desc: "Our Professional Services team provides strategic guidance, technical delivery, and on-ground execution to help enterprises meet business goals with precision and speed.",
       img: "https://www.align.com/hubfs/Group%204.svg",
       link: "https://www.align.com/managed-services?hsLang=en",
     },
+    {
+      title:"Intelligent Automation & Integration",
+      desc:"We bridge system silos and streamline operations with smart integration patterns and AI-powered process automation frameworks.",
+      img:"https://www.align.com/hubfs/Group%204.svg",
+      link:"/"
+    },
+    {
+      title:"Governance , Security & Compliance",
+      desc:"We help organizations establish a foundation of trust, compliance, and control across the entire data and application landscape.",
+      img:"https://www.align.com/hubfs/Group%204.svg",
+      link:"/"
+    },
+    
+    {
+      title:"Industries We Serve",
+      desc:"At Infinetworx, our mission is to be your digital transformation partner of choice, delivering results with precision, agility, and innovation.",
+      img:"https://www.align.com/hubfs/Group%204.svg",
+      link:"/"
+    }
   ]
 
   return (
@@ -72,10 +91,10 @@ export default function Services() {
             key={i}
             data-aos="fade-right"
             data-aos-delay={i * 150}
-            className="bg-gradient-to-r from-[#415fb0] to-[#35c6f7] rounded p-0.5 shadow-lg group relative"
+            className="bg-gradient-to-r from-[#FFA500] to-[#FF7F50] rounded p-0.5 shadow-lg group relative"
           >
             {/* Inner box */}
-            <div className="bg-white rounded h-full p-6 sm:p-8 flex flex-col justify-between transition-all duration-300 relative overflow-hidden">
+            <div className="bg-white rounded h-full p-8 sm:p-10 flex flex-col justify-between transition-all duration-300 relative overflow-hidden">
               
               {/* Top content */}
               <div className="transition-all duration-300 group-hover:opacity-0">
@@ -109,7 +128,7 @@ export default function Services() {
               </div>
 
               {/* Hover overlay */}
-              <div className="absolute inset-0 bg-gradient-to-tr from-[#007BFF] to-[#35c6f7] p-6 sm:p-8 flex flex-col justify-center opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out rounded">
+              <div className="absolute inset-0 bg-gradient-to-r from-[#FFA500] to-[#FF7F50] p-3 sm:p-4 flex flex-col justify-center opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out rounded">
                 
                 <h4
                   className="text-lg sm:text-xl lg:text-2xl font-bold mb-3 transform translate-y-6 opacity-0 

@@ -56,8 +56,8 @@ export default function Testimony() {
     <section className="w-full px-6 lg:px-18 py-12 bg-gray-50 relative">
       {/* Heading */}
       <div className="text-center mb-10" data-aos="fade" data-aos-duration='600'>
-        <h2 className="text-3xl font-bold text-[#008AD4] mb-2">Client Testimonials</h2>
-        <div className="w-20 h-1 bg-blue-500 mx-auto rounded"></div>
+        <h2 className="text-3xl font-bold text-orange-400 mb-2">Client Testimonials</h2>
+        <div className="w-20 h-1 bg-orange-400 mx-auto rounded"></div>
       </div>
 
       {/* Carousel + Arrows */}
@@ -95,7 +95,7 @@ export default function Testimony() {
           >
             {testimonials.map((testimonial) => (
               <SplideSlide key={testimonial.id} className="flex justify-center">
-                <div className="w-full max-w-[563px] bg-gradient-to-r from-[#008AD4] to-[#00D1FF] p-0.5 rounded z-10">
+                <div className="w-full max-w-[563px] bg-gradient-to-r from-[#FFA500] to-[#FF7F50] p-0.5 rounded z-10">
                   <div className="bg-white h-full w-full rounded p-4 shadow-md flex flex-col">
                     <Image
                       src={testimonial.image}
@@ -132,7 +132,7 @@ export default function Testimony() {
       <div 
       data-aos='fade'
       data-aos-duration='300'
-      className="w-full mx-0 bg-gradient-to-r from-[#008AD4] to-[#00D1FF] p-0.5 rounded mt-10 md:w-max md:mx-auto">
+      className="w-full mx-0  bg-gradient-to-r from-[#FFA500] to-[#FF7F50] p-0.5 rounded mt-10 md:w-max md:mx-auto">
   <a
     href="https://www.align.com/testimonials?hsLang=en"
     className="block bg-white text-black font-bold px-6 py-3 rounded transition"

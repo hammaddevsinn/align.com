@@ -46,7 +46,7 @@ export default function SuccessStories() {
           <p className="text-sm uppercase tracking-wide text-black">
             Success Stories
           </p>
-          <h2 className="text-3xl md:text-5xl font-semibold text-[#008AD4] leading-snug">
+          <h2 className="text-3xl md:text-5xl font-semibold text-orange-400 leading-snug">
             Featured Success Stories <br /> From Across Align&apos;s Solutions
           </h2>
           <p className="mt-4 text-gray-900 text-base">
@@ -63,7 +63,7 @@ export default function SuccessStories() {
               key={index}
               data-aos="fade-right"
               data-aos-delay={card.delay}
-              className="p-0.5 rounded bg-gradient-to-r from-[#008AD4] to-[#00D1FF] shadow-md h-full lg:h-[272.2px] lg:w-[210.2px] xl:h-[248.8] xl:w-[249.8]"
+              className="p-0.5 rounded bg-gradient-to-r from-[#FFA500] to-[#FF7F50] shadow-md h-full lg:h-[272.2px] lg:w-[210.2px] xl:h-[248.8] xl:w-[249.8]"
             >
               <div className="flex flex-col justify-between h-full p-4 bg-white rounded">
                 <h5 className="text-lg font-bold text-black mb-3">
@@ -71,7 +71,7 @@ export default function SuccessStories() {
                 </h5>
                 <a
                   href={card.link}
-                  className="text-[#008AD4]  font-bold flex items-center gap-2 hover:underline"
+                  className="text-orange-400  font-bold flex items-center gap-2 hover:underline"
                 >
                   Read more
                   <svg

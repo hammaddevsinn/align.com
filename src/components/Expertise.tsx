@@ -79,7 +79,7 @@ export default function Expertise() {
               href="https://www.align.com/resource-library?hsLang=en"
               className="inline-block mt-6 md:mt-8 px-6 text-center py-3 font-bold rounded text-black w-full md:w-auto"
               style={{
-                background: "linear-gradient(88.89deg, #008AD4 10.61%, #00D1FF 64.08%)",
+                background: "linear-gradient(88.89deg, #FFA500 10.61%, #FF7F50 64.08%)",
               }}
               target="_blank"
               rel="noopener noreferrer"

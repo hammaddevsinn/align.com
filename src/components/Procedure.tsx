@@ -78,7 +78,7 @@ export default function Procedure() {
               key={i}
               data-aos="fade-right"
               data-aos-delay={200 * (i + 1)}
-              className="bg-gradient-to-r from-[#1f3467] to-[#008ad4] rounded-lg p-0.75 shadow-md 
+              className="bg-gradient-to-r from-[#FFA500] to-[#FF7F50] rounded-lg p-0.75 shadow-md 
                          flex w-[90%] sm:w-[85%] mx-auto md:w-full"
             >
               <div
@@ -89,7 +89,7 @@ export default function Procedure() {
                 <h4 className="text-2xl md:text-lg lg:text-2xl mb-3 font-bold break-words whitespace-normal">
                   <a
                     href={card.href}
-                    className="text-[#008ad4] underline underline-offset-2 decoration-dotted hover:text-[#00d1ff] transition"
+                    className="text-[#FFA500] underline underline-offset-2 decoration-dotted hover:text-[#FF7F50] transition"
                   >
                     {card.title}
                   </a>
@@ -99,7 +99,7 @@ export default function Procedure() {
                 </p>
                 <a
                   href={card.learn}
-                  className="inline-flex items-center font-semibold text-lg md:text-base text-cyan-400 hover:text-cyan-500 transition-colors"
+                  className="inline-flex items-center font-semibold text-lg md:text-base text-orange-300 hover:text-orange-500 transition-colors"
                 >
                   <span className="mr-2">Learn More</span>
                   <ArrowIcon />

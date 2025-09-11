@@ -1,5 +1,6 @@
 "use client"
 
+import Image from "next/image"
 import Link from "next/link"
 
 export default function Footer() {
@@ -12,12 +13,12 @@ export default function Footer() {
           {/* Logo + Subscribe */}
           <div className="w-full md:w-[31.11%]">
             <Link href="/" className="inline-block">
-              <img
-                src="https://www.align.com/hubfs/align-fullcolor-logo.svg"
-                alt="align-fullcolor-logo"
-                width="136"
-                height="46"
-                className="max-w-full h-auto"
+              <Image
+                src={'/headerIcon/logo.png'}
+                alt={"align-fullcolor-logo"}
+                width={60}
+                height={90}
+                className={"max-w-full h-auto"}
               />
             </Link>
 
@@ -32,13 +33,13 @@ export default function Footer() {
                   type="email"
                   placeholder="Email*"
                   required
-                  className="h-[48px] w-full px-5 text-[18px] font-['IBM Plex Sans'] border-2 border-[#00d1ff] rounded-md sm:rounded-l-md sm:rounded-r-none outline-none"
+                  className="h-[48px] w-full px-5 text-[18px] font-['IBM Plex Sans'] border-2 border-[#FFA500] rounded-md sm:rounded-l-md sm:rounded-r-none outline-none"
                 />
 
                 {/* Button */}
                 <button
                   type="submit"
-                  className="bg-gradient-to-r from-[#008ad4] to-[#00d1ff] h-[48px] px-6 text-[18px] font-semibold rounded-md sm:rounded-r-md sm:rounded-l-none text-white shadow-md hover:opacity-90 transition"
+                  className="bg-gradient-to-r from-[#FFA500] to-[#FF7F50] h-[48px] px-6 text-[18px] font-semibold rounded-md sm:rounded-r-md sm:rounded-l-none text-white shadow-md hover:opacity-90 transition"
                 >
                   Subscribe
                 </button>

@@ -56,7 +56,7 @@ export default function AboutAlign() {
               <span className="text-base font-medium tracking-wide uppercase">
                 About InfinetWorx
               </span>
-              <h2 className="mt-2  text-4xl  lg:text-5xl font-semibold text-[#008AD4] leading-[1.2]">
+              <h2 className="mt-2  text-4xl  lg:text-5xl font-semibold text-orange-400 leading-[1.2]">
                 <span className="block">
                   Turnkey Technology Infrastructure Solutions
                 </span>
@@ -79,7 +79,7 @@ export default function AboutAlign() {
                 className="w-full md:w-full lg:w-auto text-center lg:text-left px-6 py-3 rounded text-black font-medium shadow-md transition hover:opacity-90 mx-auto lg:mx-0 inline-block"
                 style={{
                   background:
-                    "linear-gradient(88.89deg, #008AD4 10.61%, #00D1FF 64.08%)",
+                    "linear-gradient(88.89deg, #FFA500 10.61%, #FF7F50 64.08%)",
                 }}
               >
                 About InfinetWorx

@@ -40,7 +40,7 @@ export default function Hero() {
 
           {/* Heading */}
           <h2 className="font-bold text-4xl lg:text-5xl text-white mt-0 ">
-            Powering Digital Transformation
+            Powering <span className="text-orange-500">Digital</span> Transformation
           </h2>
 
         </div>

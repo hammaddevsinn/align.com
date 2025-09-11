@@ -102,7 +102,7 @@ export default function Trust() {
             className="inline-block px-6 py-3 rounded-lg text-black font-medium transition"
             style={{
               backgroundImage:
-                "linear-gradient(88.89deg, #008AD4 10.61%, #00D1FF 64.08%)",
+                "linear-gradient(88.89deg, #FFA500 10.61%, #FF7F50 64.08%)",
             }}
           >
             See for Yourself

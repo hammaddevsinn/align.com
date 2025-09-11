@@ -13,10 +13,10 @@ export default function Blog() {
               data-aos="fade-left"
             >
               <div className="text-[#545454] mb-2.5 text-lg">January 15, 2025</div>
-              <h2 className="text-[36px] leading-[40px] md:text-[44px] md:leading-[48px] font-bold text-[#008ad4] mb-4">
+              <h2 className="text-[36px] leading-[40px] md:text-[44px] md:leading-[48px] font-bold text-orange-400 mb-4">
                 <a
                   href="https://www.align.com/blog/2025-data-center-trends?hsLang=en"
-                  className="no-underline hover:text-[#006fae] transition-colors duration-200"
+                  className="no-underline hover:text-orange-600 transition-colors duration-200"
                 >
                   5 Critical Data Center Trends Reshaping the Industry in 2025
                 </a>
@@ -36,7 +36,7 @@ export default function Blog() {
             >
               <a
                 href="https://www.align.com/blog?hsLang=en"
-                className="inline-flex items-center text-[#008ad4] font-semibold text-lg leading-[18px] no-underline hover:text-[#006fae] transition-colors duration-200"
+                className="inline-flex items-center text-orange-400 font-semibold text-lg leading-[18px] no-underline hover:text-orange-500 transition-colors duration-200"
               >
                 <span className="mr-2.5">Read our Blog</span>
                 <span className="-mt-1">
