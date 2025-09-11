@@ -40,7 +40,7 @@ export default function Hero() {
 
           {/* Heading */}
           <h2 className="font-bold text-4xl lg:text-5xl text-white mt-0 ">
-            Turnkey Technology Infrastructure Solutions
+            Powering Digital Transformation
           </h2>
 
         </div>

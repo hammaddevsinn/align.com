@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef } from 'react';
 import './Header.css';
 import './Search.css';
+import Image from 'next/image';
 
 export default function Header() {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -141,14 +142,23 @@ export default function Header() {
 
                                 <span className="style-5">
                                     
-                                        <img src="https://www.align.com/hubfs/Logo%20White.svg" alt="Logo White" loading="lazy"
-                                            width="136" height="45" className="style-6" />
-                                        <img src="https://www.align.com/hubfs/align-fullcolor-logo.svg" alt="align-fullcolor-logo"
-                                            loading="lazy" width="136" height="46" className="style-8" />
-                                                                    </span> </a> <span
-                                            className="style-9">
-                                <span className="style-10">|&nbsp;&nbsp;</span>US Services
-                            </span>
+                                        {/* <img src="https://www.align.com/hubfs/Logo%20White.svg" alt="Logo White" loading="lazy"
+                                            width="136" height="45" className="style-6" /> */}
+                                       <Image src={'/headerIcon/logo.png'}
+                                        height={100}
+                                        width={100}
+                                        priority
+                                        alt='Logo'
+                                        className='style-6'/>
+                                        {/* <img src="https://www.align.com/hubfs/align-fullcolor-logo.svg" alt="align-fullcolor-logo"
+                                            loading="lazy" width="136" height="46" className="style-8" /> */}
+                                        <Image src={'/headerIcon/logo.png'}
+                                        height={100}
+                                        width={100}
+                                        priority
+                                        alt='Logo'
+                                        className='style-8'/></span> </a>
+                                <h1 className='font-bold text-xl text-white'>INFINETWORX</h1>
                         </div>
                         <nav className="style-11" aria-label=" menu">
                             <div className="style-12">
@@ -1329,27 +1339,36 @@ export default function Header() {
                 <div className="scroll-header-style-1">
                     <div className="scroll-header-style-2">
 
-                        <div className="scroll-header-style-3">
+                        <div className="flex flex-row items-center justify-center gap-2">
 
                             <a href="https://www.align.com" className="scroll-header-style-4">
 
-                                <span className="scroll-header-style-5">
+                                {/* <span className="flex flex-row">
+ */}
 
 
 
 
 
-
-                                    <img src="https://www.align.com/hubfs/Logo%20White.svg" alt="Logo White" loading="lazy" width="136" height="45" className="scroll-header-style-6" /> </span> <span className="scroll-header-style-7">
-
-
-
-
-
-
-                                    <img src="https://www.align.com/hubfs/align-fullcolor-logo.svg" alt="align-fullcolor-logo" loading="lazy" width="136" height="46" className="scroll-header-style-8" /> </span> </a> <span className="scroll-header-style-9">
-                                <span className="scroll-header-style-10">|&nbsp;&nbsp;</span>US Services
-                            </span>
+                                    {/* <img src="https://www.align.com/hubfs/Logo%20White.svg" alt="Logo White" loading="lazy" width="136" height="45" className="" /> */}
+                                    {/* <Image 
+                                    src={'/headerIcon/logo.png'}
+                                    alt='Logo'
+                                    width={60}
+                                    height={80}
+                                    className="scroll-header-style-6"
+                                    />
+                                     </span>*/}
+                                    <span className="scroll-header-style-7"> 
+                                    {/* <img src="https://www.align.com/hubfs/align-fullcolor-logo.svg" alt="align-fullcolor-logo" loading="lazy" width="136" height="46" className="scroll-header-style-8" /> */}
+                                    <Image 
+                                    src={'/headerIcon/logo.png'}
+                                    alt='Logo'
+                                    width={100}
+                                    height={100}
+                                    className="scroll-header-style-8"
+                                    /> </span> </a> 
+                                <h1 className='font-bold text-xl text-black'>INFINETWORX</h1>
                         </div>
                         <nav className="scroll-header-style-11" aria-label=" menu">
                             <div className="scroll-header-style-12">

@@ -18,30 +18,30 @@ const Player = dynamic(
 
 export default function AboutAlign() {
   useEffect(() => {
-      AOS.init({
-        duration: 800,
-        once: false, // allow repeat animations
-        easing: "ease-in-out",
-      })
-  
-      // 🔥 Force refresh after mount
-      const timer = setTimeout(() => {
-        AOS.refresh()
-      }, 200)
-  
-      // 🔥 Refresh also on scroll + resize
-      const handleScroll = () => AOS.refresh()
-      const handleResize = () => AOS.refresh()
-  
-      window.addEventListener("scroll", handleScroll)
-      window.addEventListener("resize", handleResize)
-  
-      return () => {
-        clearTimeout(timer)
-        window.removeEventListener("scroll", handleScroll)
-        window.removeEventListener("resize", handleResize)
-      }
-    }, [])
+    AOS.init({
+      duration: 800,
+      once: false, // allow repeat animations
+      easing: "ease-in-out",
+    })
+
+    // 🔥 Force refresh after mount
+    const timer = setTimeout(() => {
+      AOS.refresh()
+    }, 200)
+
+    // 🔥 Refresh also on scroll + resize
+    const handleScroll = () => AOS.refresh()
+    const handleResize = () => AOS.refresh()
+
+    window.addEventListener("scroll", handleScroll)
+    window.addEventListener("resize", handleResize)
+
+    return () => {
+      clearTimeout(timer)
+      window.removeEventListener("scroll", handleScroll)
+      window.removeEventListener("resize", handleResize)
+    }
+  }, [])
   return (
     <section className="w-full bg-white py-12 md:py-20">
       <div className="max-w-7xl mx-auto ">
@@ -54,7 +54,7 @@ export default function AboutAlign() {
           >
             <div>
               <span className="text-base font-medium tracking-wide uppercase">
-                About Align
+                About InfinetWorx
               </span>
               <h2 className="mt-2  text-4xl  lg:text-5xl font-semibold text-[#008AD4] leading-[1.2]">
                 <span className="block">
@@ -63,34 +63,27 @@ export default function AboutAlign() {
               </h2>
               <div className="mt-4 space-y-4 text-lg leading-relaxed">
                 <p>
-                  The rise of AI has had a massive impact on the IT industry -
-                  from increasing demands on data center infrastructure, to
-                  creating increasing risk from a cybersecurity standpoint, and
-                  even enabling more advanced workplace technology solutions.
-                  Align is uniquely equipped to address all of these facets of
-                  the AI revolution with our team of experts.
+                  Infinet Worx,is a next-generation technology company specializing in Data Intelligence, Artificial Intelligence, and Digital Systems Architecture. We are committed to driving enterprise innovation through intelligent, data-first strategies that transform operations, accelerate insights, and enable autonomous decision-making at scale.
+
                 </p>
-                <p>
-                  From strategy to delivery, our winning combination of
-                  comprehensive IT solutions and experienced professionals unite
-                  to accelerate change from the data center to the workplace and
-                  into the cloud.
+                <p>                  From AI-driven automation to cloud solutions, we deliver cutting-edge services tailored to your needs.
+
                 </p>
               </div>
             </div>
 
             {/* Gradient Button */}
             <div>
-             <a
-  href="https://www.align.com/about?hsLang=en"
-  className="w-full md:w-full lg:w-auto text-center lg:text-left px-6 py-3 rounded text-black font-medium shadow-md transition hover:opacity-90 mx-auto lg:mx-0 inline-block"
-  style={{
-    background:
-      "linear-gradient(88.89deg, #008AD4 10.61%, #00D1FF 64.08%)",
-  }}
->
-  About Align
-</a>
+              <a
+                href="https://www.align.com/about?hsLang=en"
+                className="w-full md:w-full lg:w-auto text-center lg:text-left px-6 py-3 rounded text-black font-medium shadow-md transition hover:opacity-90 mx-auto lg:mx-0 inline-block"
+                style={{
+                  background:
+                    "linear-gradient(88.89deg, #008AD4 10.61%, #00D1FF 64.08%)",
+                }}
+              >
+                About InfinetWorx
+              </a>
 
 
 
