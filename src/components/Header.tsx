@@ -168,10 +168,10 @@ export default function Header() {
                                 <h1 className='font-bold text-base  md:text-xl text-white'>INFINETWORX</h1>
                         </div>
                         <nav className="style-11" aria-label=" menu">
-                            <div className="style-12">
-                                <div className="style-13">
-                                    <nav className="style-14">
-                                        <span className="style-15">
+                            {/* <div className="style-12">
+                                <div className="style-13"> */}
+                                    {/* <nav className="style-14"> */}
+                                        {/* <span className="style-15">
                                             <div className="style-16">
 
 
@@ -209,13 +209,15 @@ export default function Header() {
                                                     </div>
                                                 </div>
                                             </div>
-                                        </span> <a className="style-28" href="https://www.align.com/blog?hsLang=en">Our Blog</a> <Link
+                                        </span>  */}
+                                        {/* <a className="style-28" href="https://www.align.com/blog?hsLang=en">Our Blog</a> */}
+                                         {/* <Link
                                             className="style-29" href="#contact" onClick={()=>{
                                 document.querySelector("#contact")?.scrollIntoView({behavior:"smooth"})
-                            }}>Contact Us</Link> <a
-                                                className="style-30"
-                                                href="https://www.align.com/resource-library?hsLang=en">Resources</a> <a
-                                                    className="style-31" href="https://www.align.com/support?hsLang=en">
+                            }}>Contact Us</Link>  */}
+                            {/* <a className="style-30"
+                                                href="https://www.align.com/resource-library?hsLang=en">Resources</a>  */}
+                                                {/* <a  className="style-31" href="https://www.align.com/support?hsLang=en">
                                             <svg className="style-32" xmlns="http://www.w3.org/2000/svg"
                                                 viewBox="0 0 23.446 19.278">
                                                 <path
@@ -223,20 +225,21 @@ export default function Header() {
                                                     className="style-33"></path>
                                             </svg>
                                             Support
-                                        </a>
-                                    </nav> <button className="style-34" onClick={modalShow}>
+                                        </a> */}
+                                     {/* </nav>  */}
+                                    {/* <button className="style-34" onClick={modalShow}> 
                                         <svg className="style-35" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61.2 61.2">
                                             <path data-name="Path 24"
                                                 d="M25 50a25.2 25.2 0 0 0 15.4-5.3L57 61.2l4.2-4.2-16.5-16.6A25 25 0 1 0 25 50Zm0-44A19 19 0 1 1 6 25 19 19 0 0 1 25 6Z"
                                                 className="style-36"></path>
-                                        </svg> <span className="style-37">Search Our Website</span> </button>
-                                </div>
-                            </div>
+                                        </svg> <span className="style-37">Search Our Website</span> </button> */}
+                                {/* </div>
+                            </div> */}
                             <ul className="style-38">
                                 <li className="style-39" role="none" aria-haspopup="true">
                                     <a className="style-40" href="https://www.align.com/solutions/data-center-solutions?hsLang=en"
                                         role="menuitem">
-                                        Data Center Infrastructure Solutions
+                                        Home
 
                                         <svg width="12" height="11" viewBox="0 0 12 11" fill="none"
                                             xmlns="http://www.w3.org/2000/svg" className="style-41">

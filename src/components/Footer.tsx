@@ -15,7 +15,7 @@ export default function Footer() {
             <Link href="/" className="inline-block">
               <Image
                 src={'/headerIcon/logo.png'}
-                alt={"align-fullcolor-logo"}
+                alt={"InfiniteWorx-fullcolor-logo"}
                 width={60}
                 height={90}
                 className={"max-w-full h-auto"}
@@ -50,22 +50,22 @@ export default function Footer() {
           {/* Footer Links */}
           <div className="w-full md:w-[65.55%] flex flex-col sm:flex-row gap-8 md:gap-[3.3333%]">
             <div className="w-full sm:w-[48.33%] flex flex-col gap-4 text-[18px] font-semibold">
-              <a href="https://www.align.com/solutions/data-center-solutions?hsLang=en">Data Center Infrastructure Solutions</a>
-              <a href="https://www.align.com/professional-services/workplace-technology?hsLang=en">Workplace Technology</a>
-              <a href="https://www.align.com/managed-services?hsLang=en">Managed Services</a>
-              <a href="https://www.align.com/about?hsLang=en">About Align</a>
-              <a href="https://www.align.com/align-locations?hsLang=en">Locations</a>
-              <a href="https://www.align.com/press?hsLang=en">Press</a>
+              <a href="https://www.InfiniteWorx.com/solutions/data-center-solutions?hsLang=en">Data Center Infrastructure Solutions</a>
+              <a href="https://www.InfiniteWorx.com/professional-services/workplace-technology?hsLang=en">Workplace Technology</a>
+              <a href="https://www.InfiniteWorx.com/managed-services?hsLang=en">Managed Services</a>
+              <a href="https://www.InfiniteWorx.com/about?hsLang=en">About InfiniteWorx</a>
+              <a href="https://www.InfiniteWorx.com/InfiniteWorx-locations?hsLang=en">Locations</a>
+              <a href="https://www.InfiniteWorx.com/press?hsLang=en">Press</a>
             </div>
 
             <div className="w-full sm:w-[31.11%] flex flex-col gap-4 text-[18px] font-semibold">
-              <a href="https://www.align.com/resource-library?hsLang=en">Resource Center</a>
-              <a href="https://www.align.com/blog?hsLang=en">Blog</a>
-              <a href="https://www.align.com/success-stories?hsLang=en">Success Stories</a>
-              <a href="https://www.align.com/align-partners-clients?hsLang=en">Clients and Partners</a>
-              <a href="https://www.align.com/leadership?hsLang=en">Leadership</a>
-              <a href="https://www.align.com/it-careers-align?hsLang=en">Careers</a>
-              <a href="https://www.align.com/awards?hsLang=en">Awards</a>
+              <a href="https://www.InfiniteWorx.com/resource-library?hsLang=en">Resource Center</a>
+              <a href="https://www.InfiniteWorx.com/blog?hsLang=en">Blog</a>
+              <a href="https://www.InfiniteWorx.com/success-stories?hsLang=en">Success Stories</a>
+              <a href="https://www.InfiniteWorx.com/InfiniteWorx-partners-clients?hsLang=en">Clients and Partners</a>
+              <a href="https://www.InfiniteWorx.com/leadership?hsLang=en">Leadership</a>
+              <a href="https://www.InfiniteWorx.com/it-careers-InfiniteWorx?hsLang=en">Careers</a>
+              <a href="https://www.InfiniteWorx.com/awards?hsLang=en">Awards</a>
             </div>
           </div>
         </div>
@@ -75,11 +75,11 @@ export default function Footer() {
       <div className="bg-[#f3f3f3] py-9 text-[12px] font-semibold font-['IBM Plex Sans']">
         <div className="max-w-[1200px] mx-auto px-6 sm:px-9 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
           <div className="flex items-center gap-2">
-            <a href="https://www.align.com/legal?hsLang=en">Privacy</a>
+            <a href="https://www.InfiniteWorx.com/legal?hsLang=en">Privacy</a>
             <span>|</span>
-            <a href="https://www.align.com/billing_tc?hsLang=en">Terms and Conditions</a>
+            <a href="https://www.InfiniteWorx.com/billing_tc?hsLang=en">Terms and Conditions</a>
           </div>
-          <div>©2025 | All Rights Reserved | Align Communications, Inc.</div>
+          <div>©2025 | All Rights Reserved | InfiniteWorx Communications, Inc.</div>
         </div>
       </div>
     </div>

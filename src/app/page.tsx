@@ -17,15 +17,21 @@ export default function Home() {
   return (
     <>
     <section id="hero">
-      <Hero />
+      <Hero  />
       </section>
       <Procedure />
-      <Services />
+      <section id="services">
+      <Services />  
+      </section>
+      <section id="about">
       <AboutAlign />
+      </section>
       <Trust />
       <Testimony />
       <Expertise />
+      <section id="blog">
       <Blog />
+      </section>
       <Results />
       <Stats />
       <SuccessStories />
