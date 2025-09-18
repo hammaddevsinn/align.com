@@ -76,7 +76,7 @@ export default function Expertise() {
               </li>
               <li>Award-winning and industry-recognized subject matter experts.</li>
             </ul>
-            <a
+            {/* <a
               href="#"
               className="inline-block mt-6 md:mt-8 px-6 text-center py-3 font-bold rounded text-black w-full md:w-auto"
               style={{
@@ -86,7 +86,7 @@ export default function Expertise() {
               rel="noopener noreferrer"
             >
               Access the Resource Center
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

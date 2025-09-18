@@ -109,7 +109,7 @@ export default function Services() {
                 <h4 className="text-lg sm:text-xl lg:text-2xl font-bold mb-4 text-gray-900">
                   {card.title}
                 </h4>
-                <a
+                {/* <a
                   href="#"
                   className="font-semibold text-sm sm:text-base lg:text-lg inline-flex items-center mt-4 relative z-10"
                 >
@@ -127,7 +127,7 @@ export default function Services() {
                       strokeWidth="0.5"
                     />
                   </svg>
-                </a>
+                </a> */}
               </div>
 
               {/* Hover overlay */}
@@ -149,7 +149,7 @@ export default function Services() {
                   {card.desc}
                 </p>
 
-                <a
+                {/* <a
                   href={card.link}
                   className="text-sm sm:text-base lg:text-lg font-semibold inline-flex items-center text-white  relative z-10 
                     transform translate-y-6 opacity-0 
@@ -170,7 +170,7 @@ export default function Services() {
                       strokeWidth="0.5"
                     />
                   </svg>
-                </a>
+                </a> */}
               </div>
             </div>
           </div>

@@ -69,7 +69,7 @@ export default function SuccessStories() {
                 <h5 className="text-lg font-bold text-black mb-3">
                   {card.title}
                 </h5>
-                <a
+                {/* <a
                   href="#"
                   className="text-orange-400  font-bold flex items-center gap-2 hover:underline"
                 >
@@ -88,7 +88,7 @@ export default function SuccessStories() {
                       strokeWidth="0.5"
                     />
                   </svg>
-                </a>
+                </a> */}
               </div>
             </div>
           ))}

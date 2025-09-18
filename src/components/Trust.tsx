@@ -97,7 +97,7 @@ export default function Trust() {
             </li>
           </ul>
 
-          <a
+          {/* <a
             href="/"
             className="inline-block px-6 py-3 rounded-lg text-black font-medium transition"
             style={{
@@ -106,7 +106,7 @@ export default function Trust() {
             }}
           >
             See for Yourself
-          </a>
+          </a> */}
         </div>
       </div>
     </section>

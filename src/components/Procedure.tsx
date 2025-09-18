@@ -97,13 +97,13 @@ export default function Procedure() {
                 <p className="text-base md:text-base lg:text-lg text-black mb-4">
                   {card.desc}
                 </p>
-                <a
+                {/* <a
                   href="#"
                   className="inline-flex items-center font-semibold text-lg md:text-base text-orange-300 hover:text-orange-500 transition-colors"
                 >
                   <span className="mr-2">Learn More</span>
                   <ArrowIcon />
-                </a>
+                </a> */}
               </div>
             </div>
           ))}
@@ -119,26 +119,21 @@ const cards = [
     title: "Assess & Modernize",
     desc: "A comprehensive approach to IT environment assessments, enterprise AI readiness and facility upgrades.",
     href: "/assess-modernize?hsLang=en",
-    learn: "https://www.align.com/assess-modernize?hsLang=en",
   },
   {
     title: "Design & Plan",
     desc: "Conceptual design & drawings, full project planning & management, including trade orchestration & vendor management.",
     href: "/design-procure?hsLang=en",
-    learn: "https://www.align.com/design-plan?hsLang=en",
   },
   {
     title: "Procure & Build",
     desc: "Procurement, budgets, & lead time considerations resulting in project buildout that bridges the gap between IT assets & facilities.",
     href: "/build-optimize?hsLang=en",
-    learn: "https://www.align.com/procure-build?hsLang=en",
   },
   {
     title: "Manage & Optimize",
     desc: "Manage your IT with Asset Point & optimize your environment with physical and logical migrations and decommissioning services.",
-    href: "/en-us/asset-point?hsLang=en",
-    learn: "https://www.align.com/en-us/asset-point?hsLang=en",
-  },
+    href: "/en-us/asset-point?hsLang=en"  },
 ];
 
 /* Reusable arrow icon */
