@@ -147,12 +147,16 @@ export default function Header() {
                                     
                                         {/* <img src="https://www.align.com/hubfs/Logo%20White.svg" alt="Logo White" loading="lazy"
                                             width="136" height="45" className="style-6" /> */}
-                                       <Image src={'/headerIcon/logo.png'}
-                                        height={100}
-                                        width={100}
-                                        priority
-                                        alt='Logo'
-                                        className='style-6'/>
+                                       <div className="relative w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20">
+  <Image
+    src="/headerIcon/logo.png"
+    alt="Logo"
+    fill
+    priority
+    className="object-contain"
+  />
+</div>
+
                                         {/* <img src="https://www.align.com/hubfs/align-fullcolor-logo.svg" alt="align-fullcolor-logo"
                                             loading="lazy" width="136" height="46" className="style-8" /> */}
                                         <Image src={'/headerIcon/logo.png'}
@@ -160,8 +164,8 @@ export default function Header() {
                                         width={100}
                                         priority
                                         alt='Logo'
-                                        className='style-8'/></span> </Link>
-                                <h1 className='font-bold text-xl text-white'>INFINETWORX</h1>
+                                        className='style-8 w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24'/></span> </Link>
+                                <h1 className='font-bold text-base  md:text-xl text-white'>INFINETWORX</h1>
                         </div>
                         <nav className="style-11" aria-label=" menu">
                             <div className="style-12">

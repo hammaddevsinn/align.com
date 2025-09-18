@@ -11,12 +11,12 @@ export default function NotFound() {
         <h1 className="text-8xl font-extrabold text-orange-500">404</h1>
 
         {/* Cute emoji/illustration */}
-        <div className="text-5xl my-4">🧭</div>
+        <div className="text-5xl my-4">{"🧭"}</div>
 
         {/* Message */}
         <p className="text-gray-700 text-lg">
-          Looks like you’ve lost your way.  
-          Don’t worry, let’s get you back home!
+          Looks like you&apos;ve lost your way.  
+          Don&apos;t worry, let&apos;s get you back home!
         </p>
 
         {/* Button */}

@@ -23,7 +23,7 @@ export default function Hero() {
       <Header />
 
       {/* Text container */}
-      <div className="relative z-10 w-full max-w-[1500px] px-9 pt-[6rem] md:pt-[6rem] lg:pt-[13rem]  mx-auto box-border">
+      <div className="relative z-10 w-full max-w-[1500px] px-9 pt-[8rem] md:pt-[6rem] lg:pt-[13rem]  mx-auto box-border">
         <div className="max-w-[950px] mx-auto mb-0 text-center">
 
           {/* Decorative SVG */}
