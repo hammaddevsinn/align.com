@@ -98,7 +98,7 @@ export default function Procedure() {
                   {card.desc}
                 </p>
                 <a
-                  href={card.learn}
+                  href="#"
                   className="inline-flex items-center font-semibold text-lg md:text-base text-orange-300 hover:text-orange-500 transition-colors"
                 >
                   <span className="mr-2">Learn More</span>

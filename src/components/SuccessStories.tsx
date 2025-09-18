@@ -70,7 +70,7 @@ export default function SuccessStories() {
                   {card.title}
                 </h5>
                 <a
-                  href={card.link}
+                  href="#"
                   className="text-orange-400  font-bold flex items-center gap-2 hover:underline"
                 >
                   Read more

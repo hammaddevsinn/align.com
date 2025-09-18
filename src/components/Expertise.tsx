@@ -77,7 +77,7 @@ export default function Expertise() {
               <li>Award-winning and industry-recognized subject matter experts.</li>
             </ul>
             <a
-              href="https://www.align.com/resource-library?hsLang=en"
+              href="#"
               className="inline-block mt-6 md:mt-8 px-6 text-center py-3 font-bold rounded text-black w-full md:w-auto"
               style={{
                 background: "linear-gradient(88.89deg, #FFA500 10.61%, #FF7F50 64.08%)",

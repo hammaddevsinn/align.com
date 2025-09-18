@@ -71,10 +71,10 @@ export const Headernew = () => {
               onClick={() => scrollToSection(item.link)}
               className={`relative px-3 py-1 rounded group cursor-pointer ${
                 sticky ? "md:text-black text-white" : "text-white"
-              } hover:text-blue-400 transition-colors`}
+              } hover:text-white transition-colors`}
             >
               {item.name}
-              <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-blue-400 group-hover:w-full transition-all"></span>
+              <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-white group-hover:w-full transition-all"></span>
             </button>
           ))}
         </nav>
@@ -98,7 +98,7 @@ export const Headernew = () => {
             <button
               key={item.id}
               onClick={() => scrollToSection(item.link)}
-              className="text-black text-lg hover:text-blue-400 cursor-pointer transition-colors text-left"
+              className="text-black text-lg hover:text-white cursor-pointer transition-colors text-left"
             >
               {item.name}
             </button>

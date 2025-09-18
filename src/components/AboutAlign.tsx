@@ -75,7 +75,7 @@ export default function AboutAlign() {
             {/* Gradient Button */}
             <div>
               <a
-                href="https://www.align.com/about?hsLang=en"
+                href="#"
                 className="w-full md:w-full lg:w-auto text-center lg:text-left px-6 py-3 rounded text-black font-medium shadow-md transition hover:opacity-90 mx-auto lg:mx-0 inline-block"
                 style={{
                   background:

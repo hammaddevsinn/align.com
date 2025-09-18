@@ -98,7 +98,7 @@ export default function Trust() {
           </ul>
 
           <a
-            href="https://www.align.com/testimonials?hsLang=en"
+            href="/"
             className="inline-block px-6 py-3 rounded-lg text-black font-medium transition"
             style={{
               backgroundImage:

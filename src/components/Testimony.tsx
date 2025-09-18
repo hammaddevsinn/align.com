@@ -149,7 +149,7 @@ export default function Testimony() {
       data-aos-duration='300'
       className="w-full mx-0  bg-gradient-to-r from-[#FFA500] to-[#FF7F50] p-0.5 rounded mt-10 md:w-max md:mx-auto">
   <a
-    href="https://www.align.com/testimonials?hsLang=en"
+    href="#"
     className="block bg-white text-black font-bold px-6 py-3 rounded transition"
   >
     View All Testimonials
