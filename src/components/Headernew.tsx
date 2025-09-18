@@ -89,7 +89,7 @@ export const Headernew = () => {
 
       {/* Mobile Menu */}
       <div
-        className={`fixed top-0 left-0 h-full w-64 bg-gray-900/95 z-40 transform transition-transform duration-300 ${
+        className={`fixed top-0 left-0 h-full w-64 bg-white/95 z-40 transform transition-transform duration-300 ${
           menuOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >
@@ -98,7 +98,7 @@ export const Headernew = () => {
             <button
               key={item.id}
               onClick={() => scrollToSection(item.link)}
-              className="text-white text-lg hover:text-blue-400 cursor-pointer transition-colors text-left"
+              className="text-black text-lg hover:text-blue-400 cursor-pointer transition-colors text-left"
             >
               {item.name}
             </button>
