@@ -17,23 +17,23 @@ export default function SuccessStories() {
 
   const cards = [
     {
-      title: "Align's Workplace Technology Transformation for Financial Giant",
-      link: "https://www.align.com/success-stories/align-wpt-transformation-financial-giant?hsLang=en",
+      title: "InfinetWorx's Workplace Technology Transformation for Financial Giant",
+      // link: "https://www.align.com/success-stories/align-wpt-transformation-financial-giant?hsLang=en",
       delay: 200,
     },
     {
-      title: "Align Partners with Dusty Robotics to Automate Data Center Layouts",
-      link: "https://www.align.com/success-stories/align-dusty-robotics?hsLang=en",
+      title: "InfinetWorx Partners with Dusty Robotics to Automate Data Center Layouts",
+      // link: "https://www.align.com/success-stories/align-dusty-robotics?hsLang=en",
       delay: 400,
     },
     {
-      title: "Align Leads Major Healthcare Player's Data Center Consolidation",
-      link: "https://www.align.com/success-stories/major-healthcare-data-center-consolidation-acquisition?hsLang=en",
+      title: "InfinetWorx Leads Major Healthcare Player's Data Center Consolidation",
+      // link: "https://www.align.com/success-stories/major-healthcare-data-center-consolidation-acquisition?hsLang=en",
       delay: 600,
     },
     {
       title: "From Legacy to Leading Edge: Regional Bank Transforms into the Cloud",
-      link: "https://www.align.com/success-stories/health-insurance-providers-journey-through-customized-digital-transformation?hsLang=en",
+      // link: "https://www.align.com/success-stories/health-insurance-providers-journey-through-customized-digital-transformation?hsLang=en",
       delay: 800,
     },
   ];
@@ -47,7 +47,7 @@ export default function SuccessStories() {
             Success Stories
           </p>
           <h2 className="text-3xl md:text-5xl font-semibold text-orange-400 leading-snug">
-            Featured Success Stories <br /> From Across Align&apos;s Solutions
+            Featured Success Stories <br /> From Across InfinetWorx&apos;s Solutions
           </h2>
           <p className="mt-4 text-gray-900 text-base">
             Explore our featured success stories from Workplace Technology, Data

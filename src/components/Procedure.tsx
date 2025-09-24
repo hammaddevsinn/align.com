@@ -67,7 +67,7 @@ export default function Procedure() {
             </defs>
           </svg>
           <h4 className="text-2xl px-4 font-bold mb-6 leading-snug">
-            Proven Success with Align's World-Class People, Process &amp; Tools
+            Proven Success with InfinetWorx's World-Class People, Process &amp; Tools
           </h4>
         </div>
 

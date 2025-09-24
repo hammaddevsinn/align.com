@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 export default function Blog() {
   return (
     <div className="flex items-center justify-center w-full overflow-hidden h-[950px] bg-gradient-to-b from-white to-neutral-100 md:min-h-[600px] md:h-[700px] md:py-10">
@@ -25,7 +27,7 @@ export default function Blog() {
                 The data center industry is experiencing unprecedented
                 transformation driven by multiple factors—from AI workloads and
                 power constraints to economic pressures. Through their work with
-                clients across various sectors, Align&apos;s experts have
+                clients across various sectors, InfinetWorx&apos;s experts have
                 observed five key trends that are reshaping infrastructure
                 requirements and operational strategies.
               </div>
@@ -61,12 +63,19 @@ export default function Blog() {
 
           {/* Right image section */}
           <div className="w-full md:w-[calc(50%-15px)] md:order-3">
-            <img
+           <Image
+          data-aos="fade"
+          alt="An interpretation of network infrastructure"
+          width={50}
+          height={50}
+          src={'/blog.jpeg'}
+          className="w-full max-w-full rounded-lg object-cover object-center transition-opacity duration-800 ease"
+           />
+            {/* <img
               data-aos="fade"
               src="https://www.align.com/hs-fs/hubfs/social-suggested-images/www.align.comhubfsGenerated%20imagesAn%20interpretation%20of%20network%20infrastructure-1.jpeg?width=1792&height=1024&name=www.align.comhubfsGenerated%20imagesAn%20interpretation%20of%20network%20infrastructure-1.jpeg"
               alt="An interpretation of network infrastructure"
-              className="w-full max-w-full rounded-lg object-cover object-center transition-opacity duration-800 ease"
-            />
+            /> */}
           </div>
         </div>
       </div>
