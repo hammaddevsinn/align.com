@@ -32,44 +32,45 @@ export default function Services() {
     }
   }, [])
   const cards = [
-    {
-      title: "Data and AI",
-      desc: "We design intelligent ecosystems that transform raw data into actionable intelligence using scalable cloud-native platforms and cutting-edge AI.",
-      img: "/icons/icon3.svg",
-      link: "https://infinet-worx-latest.vercel.app/services/data-ai-services",
-    },
-    {
-      title: "SAP Services and Implementation",
-      desc: "We deliver SAP consulting, implementation, and integration, helping businesses optimize operations with SAP S/4HANA, SAP BTP, and related modules.",
-      img: "/icons/icon2.svg",
-      link: "https://infinet-worx-latest.vercel.app/services/sap-services-implementation",
-    },
-    {
-      title: "Professional Services",
-      desc: "Our Professional Services team provides strategic guidance, technical delivery, and on-ground execution to help enterprises meet business goals with precision and speed.",
-      img: "/icons/icon2.svg",
-      link: "https://www.align.com/managed-services?hsLang=en",
-    },
-    {
-      title:"Intelligent Automation & Integration",
-      desc:"We bridge system silos and streamline operations with smart integration patterns and AI-powered process automation frameworks.",
-      img:"/icons/icon1.svg",
-      link:"/"
-    },
-    {
-      title:"Governance , Security & Compliance",
-      desc:"We help organizations establish a foundation of trust, compliance, and control across the entire data and application landscape.",
-      img:"/icons/icon1.svg",
-      link:"/"
-    },
+  {
+    title: "Data and AI",
+    desc: "We design intelligent ecosystems that transform raw data into actionable intelligence using scalable cloud-native platforms and cutting-edge AI.",
+    img: "/icons/icon3.svg",
+    link: "https://infinet-worx-latest.vercel.app/services/data-ai-services",
+  },
+  {
+    title: "SAP Services and Implementation",
+    desc: "We deliver SAP solutions that optimize operations through consulting, implementation, and seamless integration of SAP modules.",
+    img: "/icons/icon2.svg",
+    link: "https://infinet-worx-latest.vercel.app/services/sap-services-implementation",
+  },
+  {
+    title: "Professional Services",
+    desc: "We provide strategic guidance and hands-on execution to help businesses achieve objectives efficiently and effectively.",
+    img: "/icons/icon2.svg",
+    link: "https://www.align.com/managed-services?hsLang=en",
+  },
+  {
+    title: "Intelligent Automation & Integration",
+    desc: "We streamline operations by connecting systems and automating processes with smart AI-driven solutions.",
+    img: "/icons/icon1.svg",
+    link: "/",
+  },
+  {
+    title: "Governance, Security & Compliance",
+    desc: "We help organizations maintain trust and control by ensuring security, compliance, and effective governance.",
+    img: "/icons/icon1.svg",
+    link: "/",
+  },
+  {
+    title: "Industries We Serve",
+    desc: "We partner with industries to deliver digital solutions that drive growth, efficiency, and innovation.",
+    img: "/icons/icon1.svg",
+    link: "/",
+  }
+]
+
     
-    {
-      title:"Industries We Serve",
-      desc:"At Infinetworx, our mission is to be your digital transformation partner of choice, delivering results with precision, agility, and innovation.",
-      img:"/icons/icon1.svg",
-      link:"/"
-    }
-  ]
 
   return (
     <div className="w-full py-12">

@@ -63,19 +63,21 @@ export default function Blog() {
 
           {/* Right image section */}
           <div className="w-full md:w-[calc(50%-15px)] md:order-3">
-           <Image
+           {/* <Image
           data-aos="fade"
           alt="An interpretation of network infrastructure"
           width={50}
           height={50}
           src={'/blog.jpeg'}
           className="w-full max-w-full rounded-lg object-cover object-center transition-opacity duration-800 ease"
-           />
-            {/* <img
+           /> */}
+            <img
               data-aos="fade"
               src="https://www.align.com/hs-fs/hubfs/social-suggested-images/www.align.comhubfsGenerated%20imagesAn%20interpretation%20of%20network%20infrastructure-1.jpeg?width=1792&height=1024&name=www.align.comhubfsGenerated%20imagesAn%20interpretation%20of%20network%20infrastructure-1.jpeg"
               alt="An interpretation of network infrastructure"
-            /> */}
+              className="w-full max-w-full rounded-lg object-cover object-center transition-opacity duration-800 ease"
+
+            />
           </div>
         </div>
       </div>

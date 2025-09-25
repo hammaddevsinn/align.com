@@ -13,7 +13,7 @@ export default function Results() {
           if (entry.isIntersecting) {
             setZoomed(true);
           } else {
-            setZoomed(false); // 👈 scroll out hone par reverse karega
+            setZoomed(false);
           }
         });
       },
@@ -76,19 +76,18 @@ export default function Results() {
                 </div>
                 <h2 className="mb-4 text-4xl md:text-5xl font-semibold leading-[50.6px]">
                   <span className="font-semibold block">
-                    IT Transformation—Done
-                    <br className="hidden sm:block" /> Right.
+                    IT Transformation—Done Right.
                   </span>
                 </h2>
-                <ul className="list-none pl-[13.5px]">
-                  <li className="mb-2.5 ml-[15px] pl-[9px] text-lg before:content-['≫'] before:pr-2">
+                <ul className="list-disc pl-[13.5px]">
+                  <li className="mb-2.5 ml-[15px] pl-[9px] text-lg">
                     Flexible solutions designed by experts, built with the
                     future in mind.
                   </li>
-                  <li className="mb-2.5 ml-[15px] pl-[9px] text-lg before:content-['≫'] before:pr-2">
+                  <li className="mb-2.5 ml-[15px] pl-[9px] text-lg">
                     Our history makes us credible. Our work keeps us competitive.
                   </li>
-                  <li className="mb-2.5 ml-[15px] pl-[9px] text-lg before:content-['≫'] before:pr-2">
+                  <li className="mb-2.5 ml-[15px] pl-[9px] text-lg">
                     Whether you need to minimize overhead, modernize your
                     workloads, accelerate change, or scale your business
                     <span>—</span>we have you covered.

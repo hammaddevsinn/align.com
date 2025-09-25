@@ -133,26 +133,27 @@ export default function Contact() {
               </div>
 
               {/* Service */}
-             <div className="relative bg-gradient-to-r from-[#FFA500] to-[#FF7F50] p-0.5 rounded-md h-[52px]">
-  <select
-    name="service"
-    required
-    className="w-full h-full px-5 py-3 rounded-md text-base bg-white text-black appearance-none focus:outline-none"
-  >
-    <option disabled value="">Please Select</option>
-    <option>Data Center Design, Procure, Build</option>
-    <option>Data Center Assess &amp; Modernize</option>
-    <option>Workplace Technology</option>
-    <option>Managed Services</option>
-    <option>Align Cybersecurity</option>
-    <option>Other</option>
-  </select>
+              <div className="relative bg-gradient-to-r from-[#FFA500] to-[#FF7F50] p-0.5 rounded-md h-[52px]">
+                <select
+                  name="service"
+                  required
+                  className="w-full h-full px-5 py-3 rounded-md text-base bg-white text-black appearance-none focus:outline-none"
+                >
+                  <option disabled value="">Please Select</option>
+                  <option>AI Infrastructure Design & Deployment</option>
+                  <option>AI Modernization & Migration</option>
+                  <option>AI-Powered Workplace Solutions</option>
+                  <option>AI Managed Services & MLOps</option>
+                  <option>AI Governance, Privacy & Security</option>
+                  <option>Custom AI Solutions / Other</option>
 
-  {/* Dropdown icon (React component) */}
-  <span className="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none">
-    <ChevronDown size={18} className="text-black" />
-  </span>
-</div>
+                </select>
+
+                {/* Dropdown icon (React component) */}
+                <span className="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none">
+                  <ChevronDown size={18} className="text-black" />
+                </span>
+              </div>
 
               {/* Message */}
               <div>
